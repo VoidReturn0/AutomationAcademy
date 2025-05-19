@@ -67,8 +67,26 @@ class ModuleLoader:
             with open(metadata_path, 'r') as f:
                 data = json.load(f)
                 
+            # Extract only the fields that ModuleMetadata expects
+            metadata_fields = {
+                'id': data.get('id', module_name),
+                'name': data.get('name', module_name),
+                'version': data.get('version', '1.0.0'),
+                'description': data.get('description', ''),
+                'category': data.get('category', 'General'),
+                'difficulty': data.get('difficulty', 'Beginner'),
+                'estimated_time': str(data.get('estimated_time', '60')),
+                'dependencies': data.get('dependencies', []),
+                'prerequisites': data.get('prerequisites', []),
+                'learning_objectives': data.get('learning_objectives', []),
+                'tags': data.get('tags', []),
+                'created_date': data.get('created_date', ''),
+                'updated_date': data.get('updated_date', ''),
+                'author': data.get('author', '')
+            }
+            
             # Convert to ModuleMetadata object
-            metadata = ModuleMetadata(**data)
+            metadata = ModuleMetadata(**metadata_fields)
             self.module_metadata[module_name] = metadata
             
             return metadata

@@ -1,0 +1,90 @@
+{
+    "id": "test_import_module",
+    "name": "Test Import Module",
+    "version": "1.0.0",
+    "description": "A test module designed to verify the dynamic import functionality of the training system. This module contains various tasks to test module loading, metadata parsing, and task completion tracking.",
+    "category": "System Test",
+    "difficulty": "Beginner",
+    "estimated_time": "30",
+    "dependencies": [],
+    "prerequisites": [
+        "Basic understanding of the training system"
+    ],
+    "learning_objectives": [
+        "Verify module import functionality",
+        "Test dynamic class loading",
+        "Confirm metadata parsing",
+        "Validate task completion tracking"
+    ],
+    "tags": [
+        "test",
+        "import",
+        "system",
+        "verification"
+    ],
+    "created_date": "2024-01-01",
+    "updated_date": "2024-01-01",
+    "author": "System Test Team",
+    "tasks": [
+        {
+            "id": 1,
+            "name": "Module Loading Test",
+            "description": "Verify that this module loads correctly",
+            "type": "verification",
+            "estimated_time": 5,
+            "points": 20,
+            "required": true,
+            "screenshot_required": true
+        },
+        {
+            "id": 2,
+            "name": "Module Metadata Test",
+            "description": "Verify that module metadata is loaded correctly",
+            "type": "verification",
+            "estimated_time": 5,
+            "points": 20,
+            "required": true,
+            "screenshot_required": true
+        },
+        {
+            "id": 3,
+            "name": "Task System Test",
+            "description": "Verify that tasks are displayed correctly",
+            "type": "practical",
+            "estimated_time": 10,
+            "points": 20,
+            "required": true,
+            "screenshot_required": true
+        },
+        {
+            "id": 4,
+            "name": "Resource Loading Test",
+            "description": "Test that module resources can be accessed",
+            "type": "verification",
+            "estimated_time": 5,
+            "points": 20,
+            "required": false,
+            "screenshot_required": false
+        },
+        {
+            "id": 5,
+            "name": "Module Completion Test",
+            "description": "Complete the module and verify tracking",
+            "type": "practical",
+            "estimated_time": 5,
+            "points": 20,
+            "required": true,
+            "screenshot_required": true
+        }
+    ],
+    "completion_criteria": {
+        "minimum_score": 80,
+        "required_tasks_only": false,
+        "time_limit": null
+    },
+    "certificate": {
+        "enabled": true,
+        "template": "default",
+        "validity_period": 365
+    }
+}
