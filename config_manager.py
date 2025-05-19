@@ -111,17 +111,22 @@ class ConfigManager:
         """Get GitHub token with fallback logic"""
         # Priority order:
         # 1. User-provided token
-        # 2. Deploy key (if enabled)
-        # 3. Config file token
+        # 2. Config file token (your 5-year token)
+        # 3. Deploy key (if enabled and no config token)
         
         if user_token:
             return user_token
         
-        deploy_key = self.get_deploy_key()
-        if deploy_key:
-            return deploy_key
+        # Check for the API token in config first
+        config_token = self.get('github.api_token')
+        if config_token:
+            return config_token
         
-        return self.get('github.api_token')
+        # Only use deploy key if explicitly enabled and no config token
+        if self.get('github.use_deploy_key', False):
+            return self.get_deploy_key()
+        
+        return None
     
     def should_use_deploy_key(self) -> bool:
         """Check if deploy key should be used"""

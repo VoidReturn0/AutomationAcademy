@@ -11,11 +11,12 @@
     },
     
     "github": {
-        "repository_url": "https://github.com/VoidReturn0/AutomationAcademy",
+        "repository_url": "https://github.com/VoidReturn0/AutomationAcademy.git",
         "api_token": null,
         "check_interval_hours": 6,
         "auto_download": false,
-        "use_deploy_key": true
+        "use_deploy_key": false,
+        "token_note": "Please replace with a valid GitHub personal access token starting with 'ghp_'"
     },
     
     "modules": {
@@ -57,5 +58,11 @@
         "max_files": 5,
         "log_to_file": true,
         "log_to_console": false
+    },
+    
+    "authentication": {
+        "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfbmFtZSI6IkJyb2V0amUgVHJhaW5pbmcgU3lzdGVtIiwiY29tcGFueSI6IkJyb2V0amUgQXV0b21hdGlvbiBVU0EiLCJsb2NhdGlvbiI6IlNhdmFubmFoLCBHQSIsImNyZWF0ZWRfYXQiOiIyMDI1LTA1LTE5VDAwOjAwOjAwWiIsImV4cCI6MTkzNjUzMTE5OX0.MVhyN-VJ0vxxXy1USzSs_WoRdDwBPnSuG6MVFc6VrKA",
+        "jwt_expiry": "2030-05-19T00:00:00Z",
+        "jwt_note": "This JWT token is for internal authentication, not for GitHub API access"
     }
 }

@@ -1236,12 +1236,15 @@ class TrainingDashboard(QMainWindow):
         cursor = conn.cursor()
         
         # Define default modules available without GitHub access
-        # When using deploy key, all modules are available
+        # When using API token or deploy key, all modules are available
         from config_manager import get_config_manager
         config_manager = get_config_manager()
         
-        if config_manager.should_use_deploy_key():
-            default_modules = []  # All modules available with deploy key
+        # Check if we have any form of GitHub access (API token or deploy key)
+        has_api_access = bool(config_manager.get('github.api_token') or config_manager.get_deploy_key())
+        
+        if has_api_access:
+            default_modules = []  # All modules available with API access
         else:
             default_modules = [
                 'Network File Sharing & Mapping',
@@ -1261,8 +1264,8 @@ class TrainingDashboard(QMainWindow):
         self.modules_list.clear()
         
         # Check if user has GitHub access (default to True if no user logged in yet)
-        # If deploy key is enabled, treat all users as having GitHub access
-        if config_manager.should_use_deploy_key():
+        # If API token or deploy key is available, treat all users as having GitHub access
+        if has_api_access:
             has_github_access = True
         else:
             has_github_access = True if self.current_user is None else self.current_user.get('has_github_access', False)
