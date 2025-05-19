@@ -1236,11 +1236,18 @@ class TrainingDashboard(QMainWindow):
         cursor = conn.cursor()
         
         # Define default modules available without GitHub access
-        default_modules = [
-            'Network File Sharing & Mapping',
-            'Command Line Network Diagnostics',
-            'IP Address Configuration'
-        ]
+        # When using deploy key, all modules are available
+        from config_manager import get_config_manager
+        config_manager = get_config_manager()
+        
+        if config_manager.should_use_deploy_key():
+            default_modules = []  # All modules available with deploy key
+        else:
+            default_modules = [
+                'Network File Sharing & Mapping',
+                'Command Line Network Diagnostics',
+                'IP Address Configuration'
+            ]
         
         cursor.execute('''
             SELECT id, name, description, prerequisites, estimated_duration
@@ -1253,8 +1260,12 @@ class TrainingDashboard(QMainWindow):
         
         self.modules_list.clear()
         
-        # Check if user has GitHub access
-        has_github_access = self.current_user.get('has_github_access', False)
+        # Check if user has GitHub access (default to True if no user logged in yet)
+        # If deploy key is enabled, treat all users as having GitHub access
+        if config_manager.should_use_deploy_key():
+            has_github_access = True
+        else:
+            has_github_access = True if self.current_user is None else self.current_user.get('has_github_access', False)
         
         for module in modules:
             module_name = module[1]

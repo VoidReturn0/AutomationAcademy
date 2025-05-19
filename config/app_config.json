@@ -11,10 +11,11 @@
     },
     
     "github": {
-        "repository_url": "https://github.com/your-org/broetje-training-modules",
+        "repository_url": "https://github.com/VoidReturn0/AutomationAcademy",
         "api_token": null,
         "check_interval_hours": 6,
-        "auto_download": false
+        "auto_download": false,
+        "use_deploy_key": true
     },
     
     "modules": {

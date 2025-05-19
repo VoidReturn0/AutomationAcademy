@@ -10,9 +10,12 @@ import zipfile
 import tempfile
 import os
 import shutil
+import logging
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional
+
+logger = logging.getLogger(__name__)
 from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
     QProgressBar, QListWidget, QListWidgetItem, QTextEdit,
@@ -25,12 +28,20 @@ class GitHubAPIClient:
     """Client for GitHub API operations"""
     
     def __init__(self, repo_url: str, api_token: Optional[str] = None):
+        from config_manager import get_config_manager
+        
         self.repo_url = repo_url
-        self.api_token = api_token
+        self.config_manager = get_config_manager()
+        
+        # Use provided token or fallback to deploy key
+        self.api_token = self.config_manager.get_github_token(api_token)
         self.headers = {}
         
-        if api_token:
-            self.headers['Authorization'] = f'token {api_token}'
+        if self.api_token:
+            self.headers['Authorization'] = f'token {self.api_token}'
+            logger.info("GitHub API client initialized with token")
+        else:
+            logger.warning("GitHub API client initialized without token")
         
         # Extract owner and repo from URL
         if 'github.com' in repo_url:
