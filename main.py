@@ -179,11 +179,30 @@ class DatabaseManager:
             )
         ''')
         
+        # Database migrations
+        self.run_migrations(conn)
+        
         conn.commit()
         conn.close()
         
         # Create default admin user if not exists
         self.create_default_admin()
+    
+    def run_migrations(self, conn):
+        """Run database migrations to add missing columns"""
+        cursor = conn.cursor()
+        
+        # Check if github_token column exists in users table
+        cursor.execute("PRAGMA table_info(users)")
+        columns = [column[1] for column in cursor.fetchall()]
+        
+        if 'github_token' not in columns:
+            cursor.execute('ALTER TABLE users ADD COLUMN github_token TEXT')
+            print("Added github_token column to users table")
+        
+        if 'has_github_access' not in columns:
+            cursor.execute('ALTER TABLE users ADD COLUMN has_github_access BOOLEAN DEFAULT 0')
+            print("Added has_github_access column to users table")
     
     def create_default_admin(self):
         """Create default admin user"""
@@ -206,7 +225,7 @@ class DatabaseManager:
         cursor = conn.cursor()
         
         cursor.execute('''
-            SELECT id, username, full_name, role 
+            SELECT id, username, full_name, role, github_token, has_github_access
             FROM users 
             WHERE username = ? AND password_hash = ?
         ''', (username, password_hash))
@@ -219,7 +238,9 @@ class DatabaseManager:
                 'id': result[0],
                 'username': result[1],
                 'full_name': result[2],
-                'role': result[3]
+                'role': result[3],
+                'github_token': result[4],
+                'has_github_access': result[5] if len(result) > 5 else bool(result[4])
             }
         return None
     
@@ -679,7 +700,7 @@ class AddUserDialog(QDialog):
     
     def setup_ui(self):
         self.setWindowTitle("Add New User")
-        self.setFixedSize(400, 300)
+        self.setFixedSize(450, 400)
         
         layout = QVBoxLayout()
         
@@ -708,6 +729,17 @@ class AddUserDialog(QDialog):
         layout.addWidget(QLabel("Password:"))
         layout.addWidget(self.password_edit)
         
+        # GitHub Access Token
+        self.github_token_edit = QLineEdit()
+        self.github_token_edit.setEchoMode(QLineEdit.Password)
+        self.github_token_edit.setPlaceholderText("GitHub Personal Access Token (optional)")
+        layout.addWidget(QLabel("GitHub Access Token:"))
+        layout.addWidget(self.github_token_edit)
+        info_label = QLabel("Note: Without a GitHub token, only default modules will be available")
+        info_label.setWordWrap(True)
+        info_label.setStyleSheet("color: #666; font-size: 10px; margin-bottom: 10px;")
+        layout.addWidget(info_label)
+        
         # Buttons
         button_layout = QHBoxLayout()
         save_button = QPushButton("Save")
@@ -726,6 +758,7 @@ class AddUserDialog(QDialog):
         fullname = self.fullname_edit.text().strip()
         role = self.role_combo.currentText()
         password = self.password_edit.text()
+        github_token = self.github_token_edit.text().strip()
         
         if not all([username, fullname, password]):
             QMessageBox.warning(self, "Invalid Input", "Please fill all fields")
@@ -738,10 +771,11 @@ class AddUserDialog(QDialog):
         cursor = conn.cursor()
         
         try:
+            has_github_access = bool(github_token)
             cursor.execute('''
-                INSERT INTO users (username, full_name, role, password_hash)
-                VALUES (?, ?, ?, ?)
-            ''', (username, fullname, role, password_hash))
+                INSERT INTO users (username, full_name, role, password_hash, github_token, has_github_access)
+                VALUES (?, ?, ?, ?, ?, ?)
+            ''', (username, fullname, role, password_hash, github_token, has_github_access))
             conn.commit()
             self.accept()
         except sqlite3.IntegrityError:
@@ -1201,6 +1235,13 @@ class TrainingDashboard(QMainWindow):
         conn = sqlite3.connect(self.db_manager.db_path)
         cursor = conn.cursor()
         
+        # Define default modules available without GitHub access
+        default_modules = [
+            'Network File Sharing & Mapping',
+            'Command Line Network Diagnostics',
+            'IP Address Configuration'
+        ]
+        
         cursor.execute('''
             SELECT id, name, description, prerequisites, estimated_duration
             FROM modules
@@ -1211,10 +1252,35 @@ class TrainingDashboard(QMainWindow):
         conn.close()
         
         self.modules_list.clear()
+        
+        # Check if user has GitHub access
+        has_github_access = self.current_user.get('has_github_access', False)
+        
         for module in modules:
+            module_name = module[1]
+            
+            # Filter modules based on GitHub access
+            if not has_github_access and module_name not in default_modules:
+                continue
+                
             item = QListWidgetItem(f"{module[1]} ({module[4]} min)")
             item.setData(Qt.UserRole, module)
+            
+            # Add visual indicator for premium modules
+            if module_name not in default_modules:
+                item.setText(f"⭐ {module[1]} ({module[4]} min)")
+            
             self.modules_list.addItem(item)
+        
+        # Add message if user doesn't have full access
+        if not has_github_access:
+            no_access_item = QListWidgetItem("━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+            no_access_item.setFlags(Qt.NoItemFlags)
+            self.modules_list.addItem(no_access_item)
+            
+            info_item = QListWidgetItem("🔒 Additional modules require GitHub access")
+            info_item.setFlags(Qt.NoItemFlags)
+            self.modules_list.addItem(info_item)
         
         # Connect selection handler
         self.modules_list.itemSelectionChanged.connect(self.module_selected)
