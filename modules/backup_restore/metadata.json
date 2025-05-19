@@ -1,0 +1,136 @@
+{
+  "id": "backup_restore",
+  "name": "Backup/Restore Operations",
+  "version": "1.0",
+  "description": "Perform system backup and restore using Paragon software for Siemens IPCs",
+  "author": "Broetje Automation Training Team",
+  "prerequisites": ["network_file_sharing", "ip_configuration"],
+  "estimated_duration": 75,
+  "difficulty": "advanced",
+  "tags": ["backup", "restore", "system-image", "paragon", "data-protection"],
+  "tasks": [
+    {
+      "id": "launch_paragon",
+      "name": "Launch Paragon Software",
+      "description": "Open Paragon Backup & Recovery and familiarize yourself with the interface",
+      "instructions": [
+        "Locate Paragon icon on desktop or Start menu",
+        "Launch Paragon Backup & Recovery",
+        "Navigate through main menu options",
+        "Explore backup and restore features"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "screenshot",
+      "points": 10
+    },
+    {
+      "id": "naming_convention",
+      "name": "Practice Naming Convention",
+      "description": "Create backup filenames following Broetje standards",
+      "instructions": [
+        "Review naming convention: [Machine#]_[Type]_[Date]",
+        "Create example names for different backup types",
+        "NC system: AP1741_R1_NC_20250819",
+        "PLC backup: Boeing_S1_S7_20250819",
+        "Document your naming examples"
+      ],
+      "required": true,
+      "screenshot_required": false,
+      "verification_type": "naming_practice",
+      "examples": ["AP1741_R1_NC_20250819", "Boeing_S1_S7_20250819"],
+      "points": 15
+    },
+    {
+      "id": "create_system_backup",
+      "name": "Create Full System Backup",
+      "description": "Perform a complete system backup of a Siemens IPC",
+      "instructions": [
+        "Select 'Create New Backup' in Paragon",
+        "Choose 'Disk and Partitions Backup'",
+        "Select all system partitions (C: and D:)",
+        "Set destination to network share or external drive",
+        "Apply proper naming convention",
+        "Configure compression (Normal recommended)",
+        "Include backup comments with system details",
+        "Execute backup and monitor progress",
+        "Verify backup completion"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "backup_creation",
+      "points": 30
+    },
+    {
+      "id": "verify_backup",
+      "name": "Verify Backup Integrity",
+      "description": "Check the created backup for integrity and completeness",
+      "instructions": [
+        "Locate created backup file",
+        "Open backup in Paragon",
+        "Select 'Verify Backup' option",
+        "Run verification process",
+        "Document verification results",
+        "Check file size and creation date"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "backup_verification",
+      "points": 15
+    },
+    {
+      "id": "create_recovery_media",
+      "name": "Create Recovery Media",
+      "description": "Prepare bootable recovery media for system restoration",
+      "instructions": [
+        "Open Paragon Recovery Media Builder",
+        "Select USB device or DVD",
+        "Add necessary drivers if required",
+        "Include network drivers for backup access",
+        "Create the recovery media",
+        "Test boot from recovery media"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "recovery_media",
+      "points": 20
+    },
+    {
+      "id": "restore_to_test_drive",
+      "name": "Restore Backup to Test Drive",
+      "description": "Practice restoration by restoring backup to a test hard drive",
+      "instructions": [
+        "Boot from recovery media",
+        "Launch Paragon in recovery environment",
+        "Select 'Restore Backup'",
+        "Browse to backup file location",
+        "Select test drive as destination",
+        "Confirm drive will be overwritten",
+        "Execute restoration process",
+        "Monitor progress (30-60 minutes typical)",
+        "Verify successful boot from restored drive"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "restore_operation",
+      "points": 25
+    },
+    {
+      "id": "document_procedures",
+      "name": "Document Backup/Restore Procedures",
+      "description": "Create comprehensive documentation of your backup and restore operations",
+      "instructions": [
+        "Use provided documentation template",
+        "Record all backup details",
+        "Document restoration procedures",
+        "Include troubleshooting steps",
+        "Note any issues encountered",
+        "Create recovery checklist"
+      ],
+      "required": true,
+      "screenshot_required": false,
+      "verification_type": "documentation",
+      "points": 10
+    }
+  ]
+}

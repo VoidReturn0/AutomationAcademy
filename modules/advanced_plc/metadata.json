@@ -1,0 +1,40 @@
+{
+    "name": "Advanced PLC Programming",
+    "id": "advanced_plc",
+    "version": "1.0.0",
+    "author": "Broetje Training Team",
+    "description": "Advanced PLC concepts including structured text and function blocks",
+    "prerequisites": ["basic_plc"],
+    "dependencies": [],
+    "difficulty": "intermediate",
+    "estimated_duration": "12 hours",
+    "tasks": [
+        {
+            "id": "structured_text",
+            "name": "Structured Text Programming",
+            "description": "Learn ST programming language",
+            "points": 25
+        },
+        {
+            "id": "function_blocks",
+            "name": "Create Custom Function Blocks",
+            "description": "Design reusable function blocks",
+            "points": 30
+        },
+        {
+            "id": "data_handling",
+            "name": "Advanced Data Handling",
+            "description": "Work with arrays, structures, and data types",
+            "points": 25
+        }
+    ],
+    "resources": {
+        "documentation": "resources/advanced_plc_guide.pdf",
+        "examples": "resources/example_programs/",
+        "templates": "resources/templates/"
+    },
+    "certification": {
+        "required_score": 85,
+        "certificate_name": "Advanced PLC Programmer"
+    }
+}

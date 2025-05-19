@@ -1,0 +1,107 @@
+{
+  "id": "cli_diagnostics",
+  "name": "Command Line Network Diagnostics",
+  "version": "1.0",
+  "description": "Master command line tools for network troubleshooting in Broetje Automation environments",
+  "author": "Broetje Automation Training Team",
+  "prerequisites": ["network_file_sharing"],
+  "estimated_duration": 45,
+  "difficulty": "intermediate",
+  "tags": ["networking", "diagnostics", "command-line"],
+  "tasks": [
+    {
+      "id": "open_cmd",
+      "name": "Open Command Prompt",
+      "description": "Learn different methods to open the Windows Command Prompt",
+      "instructions": [
+        "Press Windows key + R to open Run dialog",
+        "Type 'cmd' and press Enter",
+        "Alternatively, type 'cmd' in the Start menu search",
+        "For admin access, right-click and select 'Run as administrator'"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "screenshot",
+      "points": 10
+    },
+    {
+      "id": "ping_machine_network",
+      "name": "Ping Machine Network Components",
+      "description": "Test connectivity to all devices on the 192.168.214.x network",
+      "instructions": [
+        "ping 192.168.214.1 (NCU Controller)",
+        "ping 192.168.214.34 (Service PC)",
+        "ping 192.168.214.35 (Operator PC)",
+        "ping 192.168.214.37 (Scale PC/Vision System)",
+        "ping 192.168.214.60 (Riveter PC)",
+        "Document response times for each device"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "command_output",
+      "network_targets": ["192.168.214.1", "192.168.214.34", "192.168.214.35", "192.168.214.37", "192.168.214.60"],
+      "points": 25
+    },
+    {
+      "id": "ping_riveter_network",
+      "name": "Ping Riveter Network",
+      "description": "Test connectivity to the 192.168.213.x network components",
+      "instructions": [
+        "ping 192.168.213.33 (RTX System)",
+        "ping 192.168.213.60 (Riveter PLC backup path)",
+        "Document results and response times"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "command_output",
+      "network_targets": ["192.168.213.33", "192.168.213.60"],
+      "points": 15
+    },
+    {
+      "id": "ping_video_network",
+      "name": "Ping Video Recording Network",
+      "description": "Test connectivity to the 192.168.1.x video network",
+      "instructions": [
+        "ping 192.168.1.1 (Video system gateway)",
+        "Document the response"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "command_output",
+      "network_targets": ["192.168.1.1"],
+      "points": 10
+    },
+    {
+      "id": "advanced_commands",
+      "name": "Execute Advanced Network Commands",
+      "description": "Use tracert, ipconfig, and arp commands for network analysis",
+      "instructions": [
+        "Run tracert to trace the route to google.com",
+        "Execute ipconfig to show current IP configuration",
+        "Run ipconfig /all for detailed network information",
+        "Use arp -a to show connected devices and MAC addresses",
+        "Document all outputs"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "command_output",
+      "commands": ["tracert google.com", "ipconfig", "ipconfig /all", "arp -a"],
+      "points": 20
+    },
+    {
+      "id": "troubleshooting_scenario",
+      "name": "Network Troubleshooting Practice",
+      "description": "Practice identifying and resolving network connectivity issues",
+      "instructions": [
+        "Use pathping to test network path quality",
+        "Run netstat -an to view active connections",
+        "Clear ARP cache if needed with arp -d",
+        "Create a network log documenting your findings"
+      ],
+      "required": false,
+      "screenshot_required": true,
+      "verification_type": "troubleshooting",
+      "points": 20
+    }
+  ]
+}

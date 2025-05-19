@@ -1,0 +1,39 @@
+{
+  "id": "module_template",
+  "name": "Module Template",
+  "version": "1.0.0",
+  "description": "Template for creating new training modules",
+  "category": "template",
+  "difficulty": "beginner",
+  "estimated_time": "30 minutes",
+  "dependencies": [],
+  "prerequisites": [],
+  "learning_objectives": [
+    "Understand module structure",
+    "Create new modules from template",
+    "Implement custom training content"
+  ],
+  "tags": ["template", "development", "module-creation"],
+  "created_date": "2025-05-18",
+  "updated_date": "2025-05-18",
+  "author": "Training Team",
+  "tasks": [
+    {
+      "id": "task_1",
+      "title": "Task Title",
+      "description": "Task description goes here",
+      "type": "practical",
+      "estimated_time": "10 minutes",
+      "points": 25,
+      "validation": {
+        "type": "screenshot",
+        "required": true
+      }
+    }
+  ],
+  "resources": {
+    "documentation": ["resources/guide.md"],
+    "videos": [],
+    "external_links": []
+  }
+}

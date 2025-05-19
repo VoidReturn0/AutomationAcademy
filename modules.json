@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-19",
+  "repository": "https://github.com/BroetjeAutomation/training-modules",
+  "modules": [
+    {
+      "id": "network_file_sharing",
+      "name": "Network File Sharing & Mapping",
+      "version": "1.0",
+      "description": "Learn to map network drives and share files across the automation network",
+      "author": "Broetje Automation Training Team",
+      "download_url": "https://github.com/BroetjeAutomation/training-modules/releases/download/v1.0/network_file_sharing.zip",
+      "prerequisites": [],
+      "estimated_duration": 30,
+      "difficulty": "beginner",
+      "tags": ["networking", "file-sharing", "basic"]
+    },
+    {
+      "id": "cli_diagnostics",
+      "name": "Command Line Network Diagnostics",
+      "version": "1.0",
+      "description": "Master command line tools for network troubleshooting in Broetje Automation environments",
+      "author": "Broetje Automation Training Team",
+      "download_url": "https://github.com/BroetjeAutomation/training-modules/releases/download/v1.0/cli_diagnostics.zip",
+      "prerequisites": ["network_file_sharing"],
+      "estimated_duration": 45,
+      "difficulty": "intermediate",
+      "tags": ["networking", "diagnostics", "command-line"]
+    },
+    {
+      "id": "ip_configuration",
+      "name": "IP Address Configuration",
+      "version": "1.0",
+      "description": "Configure IP addresses for automation networks (192.168.214.x, 192.168.213.x, 192.168.1.x)",
+      "author": "Broetje Automation Training Team",
+      "download_url": "https://github.com/BroetjeAutomation/training-modules/releases/download/v1.0/ip_configuration.zip",
+      "prerequisites": ["network_file_sharing", "cli_diagnostics"],
+      "estimated_duration": 40,
+      "difficulty": "intermediate",
+      "tags": ["networking", "ip-configuration", "network-settings"]
+    },
+    {
+      "id": "backup_restore",
+      "name": "Backup/Restore Operations",
+      "version": "1.0",
+      "description": "Perform system backup and restore using Paragon software for Siemens IPCs",
+      "author": "Broetje Automation Training Team",
+      "download_url": "https://github.com/BroetjeAutomation/training-modules/releases/download/v1.0/backup_restore.zip",
+      "prerequisites": ["network_file_sharing", "ip_configuration"],
+      "estimated_duration": 75,
+      "difficulty": "advanced",
+      "tags": ["backup", "restore", "system-image", "paragon", "data-protection"]
+    },
+    {
+      "id": "drive_replacement",
+      "name": "Hard Drive Replacement",
+      "version": "1.0",
+      "description": "Replace SSDs using proper Torx tools and procedures for Siemens IPCs",
+      "author": "Broetje Automation Training Team",
+      "download_url": "https://github.com/BroetjeAutomation/training-modules/releases/download/v1.0/drive_replacement.zip",
+      "prerequisites": ["backup_restore"],
+      "estimated_duration": 45,
+      "difficulty": "intermediate",
+      "tags": ["hardware", "ssd", "drive-replacement", "maintenance"]
+    },
+    {
+      "id": "remote_access",
+      "name": "Remote Access Configuration",
+      "version": "1.0",
+      "description": "Set up UltraVNC for remote access (password: ae746)",
+      "author": "Broetje Automation Training Team",
+      "download_url": "https://github.com/BroetjeAutomation/training-modules/releases/download/v1.0/remote_access.zip",
+      "prerequisites": ["ip_configuration"],
+      "estimated_duration": 30,
+      "difficulty": "intermediate",
+      "tags": ["remote-access", "vnc", "networking", "support"]
+    },
+    {
+      "id": "powershell_scripting",
+      "name": "PowerShell Scripting",
+      "version": "1.0",
+      "description": "Advanced scripting with PowerShell for system administration",
+      "author": "Broetje Automation Training Team",
+      "download_url": "https://github.com/BroetjeAutomation/training-modules/releases/download/v1.0/powershell_scripting.zip",
+      "prerequisites": ["cli_diagnostics"],
+      "estimated_duration": 75,
+      "difficulty": "advanced",
+      "tags": ["scripting", "powershell", "automation", "administration"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "networking",
+      "name": "Networking & Connectivity",
+      "description": "Network configuration, file sharing, and diagnostics",
+      "modules": ["network_file_sharing", "cli_diagnostics", "ip_configuration", "remote_access"]
+    },
+    {
+      "id": "system_maintenance",
+      "name": "System Maintenance",
+      "description": "Backup, restore, and hardware maintenance procedures",
+      "modules": ["backup_restore", "drive_replacement"]
+    },
+    {
+      "id": "automation",
+      "name": "Automation & Scripting",
+      "description": "PowerShell scripting and task automation",
+      "modules": ["powershell_scripting"]
+    }
+  ],
+  "learning_paths": [
+    {
+      "id": "basic_technician",
+      "name": "Basic Technician Training",
+      "description": "Essential skills for new technicians",
+      "modules": [
+        "network_file_sharing",
+        "cli_diagnostics",
+        "ip_configuration"
+      ]
+    },
+    {
+      "id": "advanced_technician",
+      "name": "Advanced Technician Training",
+      "description": "Advanced maintenance and scripting skills",
+      "modules": [
+        "backup_restore",
+        "drive_replacement",
+        "remote_access",
+        "powershell_scripting"
+      ]
+    },
+    {
+      "id": "full_certification",
+      "name": "Complete Technician Certification",
+      "description": "Full training program for Broetje technicians",
+      "modules": [
+        "network_file_sharing",
+        "cli_diagnostics",
+        "ip_configuration",
+        "backup_restore",
+        "drive_replacement",
+        "remote_access",
+        "powershell_scripting"
+      ]
+    }
+  ]
+}

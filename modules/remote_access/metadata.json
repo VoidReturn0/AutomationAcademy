@@ -1,0 +1,117 @@
+{
+  "id": "remote_access",
+  "name": "Remote Access Configuration",
+  "version": "1.0",
+  "description": "Set up UltraVNC for remote access (password: ae746)",
+  "author": "Broetje Automation Training Team",
+  "prerequisites": ["ip_configuration"],
+  "estimated_duration": 30,
+  "difficulty": "intermediate",
+  "tags": ["remote-access", "vnc", "networking", "support"],
+  "tasks": [
+    {
+      "id": "install_vnc_server",
+      "name": "Install VNC Server",
+      "description": "Install and configure UltraVNC server on the machine",
+      "instructions": [
+        "Download UltraVNC from official website",
+        "Run installer as Administrator",
+        "Select 'VNC Server' component",
+        "Choose 'Register VNC Server as a system service'",
+        "Complete installation",
+        "Configure Windows Firewall exception"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "software_installation",
+      "points": 20
+    },
+    {
+      "id": "configure_vnc_password",
+      "name": "Configure VNC Password",
+      "description": "Set up the standard Broetje VNC password",
+      "instructions": [
+        "Open UltraVNC Server Settings",
+        "Navigate to Security tab",
+        "Set VNC Password to: ae746",
+        "Set View-Only Password if required",
+        "Apply settings",
+        "Restart VNC service"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "password_configuration",
+      "password": "ae746",
+      "points": 15
+    },
+    {
+      "id": "network_configuration",
+      "name": "Configure Network Settings",
+      "description": "Set up VNC for network access",
+      "instructions": [
+        "Configure VNC to listen on all interfaces",
+        "Set default port to 5900",
+        "Enable loopback connections",
+        "Configure display number (usually :0)",
+        "Set connection priority",
+        "Apply network settings"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "network_settings",
+      "vnc_port": 5900,
+      "points": 20
+    },
+    {
+      "id": "test_local_connection",
+      "name": "Test Local VNC Connection",
+      "description": "Verify VNC works locally before remote testing",
+      "instructions": [
+        "Install VNC Viewer on same machine",
+        "Connect to localhost:5900",
+        "Enter password: ae746",
+        "Verify connection successful",
+        "Test mouse and keyboard control",
+        "Document any issues"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "local_test",
+      "points": 15
+    },
+    {
+      "id": "remote_connection_test",
+      "name": "Test Remote Connection",
+      "description": "Connect from another PC on the network",
+      "instructions": [
+        "Note server IP address",
+        "From remote PC, open VNC Viewer",
+        "Enter server IP:5900",
+        "Enter password: ae746",
+        "Verify full control access",
+        "Test file transfer if enabled"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "remote_test",
+      "points": 20
+    },
+    {
+      "id": "teams_configuration",
+      "name": "Configure Teams Screen Sharing",
+      "description": "Set up Microsoft Teams for remote support",
+      "instructions": [
+        "Open Microsoft Teams",
+        "Navigate to Settings > Devices",
+        "Configure camera and microphone",
+        "Test screen sharing in a meeting",
+        "Set up remote control permissions",
+        "Document Teams configuration"
+      ],
+      "required": false,
+      "screenshot_required": true,
+      "verification_type": "teams_setup",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Broetje Training System Requirements
+
+# Core Dependencies
+PySide6>=6.5.0
+requests>=2.31.0
+Pillow>=10.0.0
+qrcode[pil]>=7.4.2
+python-dotenv>=1.0.0
+
+# Build and Deployment
+pyinstaller>=5.13.0
+
+# Optional Dependencies for Enhanced Features
+matplotlib>=3.7.0  # For progress charts
+cryptography>=41.0.0  # For enhanced security
+python-pptx>=0.6.21  # For generating reports
+fpdf2>=2.7.0  # For PDF generation
+openpyxl>=3.1.0  # For Excel export
+
+# Development Dependencies (optional)
+pytest>=7.4.0
+pytest-qt>=4.2.0
+black>=23.7.0
+flake8>=6.0.0

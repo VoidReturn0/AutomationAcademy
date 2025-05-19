@@ -1,0 +1,13 @@
+{
+    "repository_url": "https://github.com/broetje-automation/training-modules",
+    "api_token": null,
+    "check_interval_hours": 6,
+    "auto_download": false,
+    "completion_tracking": {
+        "enabled": true,
+        "upload_screenshots": true,
+        "repository": "broetje-automation/training-completion-tracking",
+        "branch": "main",
+        "token": "${GITHUB_TOKEN}"
+    }
+}

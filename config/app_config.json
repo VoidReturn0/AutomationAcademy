@@ -1,0 +1,60 @@
+{
+    "app_name": "Broetje Training System",
+    "version": "1.0.0",
+    "company": "Broetje Automation USA",
+    "location": "Savannah, GA",
+    
+    "database": {
+        "path": "data/training_data.db",
+        "backup_interval_hours": 24,
+        "max_backups": 30
+    },
+    
+    "github": {
+        "repository_url": "https://github.com/your-org/broetje-training-modules",
+        "api_token": null,
+        "check_interval_hours": 6,
+        "auto_download": false
+    },
+    
+    "modules": {
+        "download_path": "modules/",
+        "cache_path": "cache/",
+        "verification_required": true
+    },
+    
+    "security": {
+        "password_min_length": 8,
+        "session_timeout_minutes": 480,
+        "max_login_attempts": 3,
+        "lockout_duration_minutes": 15
+    },
+    
+    "ui": {
+        "theme": "broetje_professional",
+        "language": "en",
+        "auto_save_interval_minutes": 5,
+        "screenshot_quality": 90
+    },
+    
+    "backup": {
+        "naming_convention": "Machine#_Initials_Type_YYYYMMDD",
+        "default_path": "C:/BroetjeBackups/",
+        "compress_backups": true
+    },
+    
+    "network": {
+        "production_range": "192.168.214.x",
+        "engineering_range": "192.168.213.x", 
+        "management_range": "192.168.1.x",
+        "vnc_password": "ae746"
+    },
+    
+    "logging": {
+        "level": "INFO",
+        "max_file_size_mb": 10,
+        "max_files": 5,
+        "log_to_file": true,
+        "log_to_console": false
+    }
+}

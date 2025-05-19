@@ -1,0 +1,40 @@
+{
+    "name": "Basic PLC Programming",
+    "id": "basic_plc",
+    "version": "1.0.0",
+    "author": "Broetje Training Team",
+    "description": "Introduction to PLC programming with ladder logic basics",
+    "prerequisites": [],
+    "dependencies": [],
+    "difficulty": "beginner",
+    "estimated_duration": "8 hours",
+    "tasks": [
+        {
+            "id": "setup_environment",
+            "name": "Setup Programming Environment",
+            "description": "Install and configure PLC programming software",
+            "points": 10
+        },
+        {
+            "id": "first_program",
+            "name": "Create First Ladder Logic Program",
+            "description": "Write a simple start/stop circuit",
+            "points": 15
+        },
+        {
+            "id": "timers_counters",
+            "name": "Implement Timers and Counters",
+            "description": "Learn to use timing and counting functions",
+            "points": 20
+        }
+    ],
+    "resources": {
+        "documentation": "resources/basic_plc_guide.pdf",
+        "examples": "resources/example_programs/",
+        "videos": "resources/video_tutorials/"
+    },
+    "certification": {
+        "required_score": 80,
+        "certificate_name": "Basic PLC Programmer"
+    }
+}

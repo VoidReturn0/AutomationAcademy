@@ -1,0 +1,86 @@
+{
+  "id": "network_file_sharing",
+  "name": "Network File Sharing & Mapping",
+  "version": "1.0",
+  "description": "Learn to map network drives and share files across the automation network",
+  "author": "Broetje Automation Training Team",
+  "prerequisites": [],
+  "estimated_duration": 30,
+  "difficulty": "beginner",
+  "tags": ["networking", "file-sharing", "basic"],
+  "tasks": [
+    {
+      "id": "share_folder",
+      "name": "Share a Folder on Local PC",
+      "description": "Create a shared folder on your local PC that can be accessed from other machines on the network",
+      "instructions": [
+        "Open File Explorer (Windows key + E)",
+        "Navigate to the drive you want to share (usually C: or D:)",
+        "Right-click on the folder you want to share",
+        "Select Properties from the context menu",
+        "Click the Sharing tab",
+        "Click Advanced Sharing",
+        "Check the box 'Share this folder'",
+        "Keep the default Share name or change it",
+        "Click Permissions",
+        "Select Everyone and ensure Full Control is checked",
+        "Click OK on all windows"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "screenshot",
+      "points": 20
+    },
+    {
+      "id": "create_temp_directory",
+      "name": "Create Site Standard Temp Folder",
+      "description": "Create a personal temp directory following Broetje naming standards",
+      "instructions": [
+        "Open File Explorer",
+        "Navigate to D: drive", 
+        "Create a new folder called 'Temp'",
+        "Inside Temp, create a folder with your initials (e.g., D:\\Temp\\MG)"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "screenshot",
+      "points": 10
+    },
+    {
+      "id": "map_network_drive",
+      "name": "Map a Network Drive",
+      "description": "Map a shared folder from another computer as a network drive",
+      "instructions": [
+        "Open File Explorer",
+        "Click 'This PC' in the left sidebar",
+        "Click the 'Map network drive' button in the ribbon",
+        "Choose an available drive letter (e.g., Z:)",
+        "Enter the network path (e.g., \\\\COMPUTER-NAME\\SharedFolder)",
+        "Check 'Reconnect at sign-in' if desired",
+        "Click Finish",
+        "Enter credentials if prompted"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "screenshot",
+      "points": 20
+    },
+    {
+      "id": "test_file_transfer",
+      "name": "Test File Transfer",
+      "description": "Transfer a test file between PCs using the mapped drive",
+      "instructions": [
+        "Navigate to your mapped drive",
+        "Create a new text document",
+        "Name it 'Test_Transfer_[YourInitials].txt'",
+        "Type a test message and save",
+        "Verify the file appears on the original computer",
+        "Open and edit the file from both computers"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "file_transfer",
+      "points": 25
+    }
+  ]
+}

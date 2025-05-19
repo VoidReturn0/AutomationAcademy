@@ -1,0 +1,106 @@
+{
+  "id": "powershell_scripting",
+  "name": "PowerShell Scripting",
+  "version": "1.0",
+  "description": "Advanced scripting with PowerShell for system administration",
+  "author": "Broetje Automation Training Team",
+  "prerequisites": ["cli_diagnostics"],
+  "estimated_duration": 75,
+  "difficulty": "advanced",
+  "tags": ["scripting", "powershell", "automation", "administration"],
+  "tasks": [
+    {
+      "id": "powershell_basics",
+      "name": "PowerShell Fundamentals",
+      "description": "Learn basic PowerShell concepts and cmdlets",
+      "instructions": [
+        "Open PowerShell (Windows key + X)",
+        "Learn basic cmdlets: Get-Help, Get-Command, Get-Location",
+        "Understand Verb-Noun cmdlet structure",
+        "Practice with Get-ChildItem, Set-Location",
+        "Create variables with $ prefix",
+        "Use pipeline with | operator"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "basics_understanding",
+      "points": 15
+    },
+    {
+      "id": "create_directory_script",
+      "name": "Create Directory and File Script",
+      "description": "Create a PowerShell script that sets up your working directory",
+      "instructions": [
+        "Create D:\\Temp\\[YourInitials]\\PowerShellScripts",
+        "Create a Hello_World.txt file with content",
+        "Write script to open the file in Notepad",
+        "Add error handling with try/catch",
+        "Test script execution",
+        "Save as OpenHelloWorld.ps1"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "script_creation",
+      "script_name": "OpenHelloWorld.ps1",
+      "points": 20
+    },
+    {
+      "id": "network_diagnostic_script",
+      "name": "Network Diagnostic Script",
+      "description": "Create advanced network testing script for Broetje networks",
+      "instructions": [
+        "Define Broetje device IPs in a hashtable",
+        "Test connectivity to each device",
+        "Format output with colors",
+        "Generate timestamped report",
+        "Save report to file",
+        "Open report automatically"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "network_script",
+      "devices": {
+        "NCU Controller": "192.168.214.1",
+        "Service PC": "192.168.214.34",
+        "Operator PC": "192.168.214.35",
+        "Riveter PC": "192.168.214.60"
+      },
+      "points": 25
+    },
+    {
+      "id": "backup_management_script",
+      "name": "Backup Management Script",
+      "description": "Create script following Broetje naming conventions",
+      "instructions": [
+        "Create function with parameters",
+        "Implement Broetje naming convention",
+        "Add file compression capability",
+        "Include error handling",
+        "Log backup operations",
+        "Test with sample data"
+      ],
+      "required": true,
+      "screenshot_required": false,
+      "verification_type": "backup_script",
+      "naming_format": "[Machine#]_[Initials]_[Type]_[YYYYMMDD]",
+      "points": 20
+    },
+    {
+      "id": "startup_automation",
+      "name": "Configure Startup Script",
+      "description": "Set up PowerShell script to run at Windows startup",
+      "instructions": [
+        "Create startup script that opens Hello_World.txt",
+        "Add network connectivity checks",
+        "Include logging functionality",
+        "Set execution policy if needed",
+        "Create scheduled task for logon",
+        "Test startup functionality"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "startup_script",
+      "points": 20
+    }
+  ]
+}

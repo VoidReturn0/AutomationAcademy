@@ -1,0 +1,122 @@
+{
+  "id": "ip_configuration",
+  "name": "IP Address Configuration",
+  "version": "1.0",
+  "description": "Configure IP addresses for automation networks (192.168.214.x, 192.168.213.x, 192.168.1.x)",
+  "author": "Broetje Automation Training Team",
+  "prerequisites": ["network_file_sharing", "cli_diagnostics"],
+  "estimated_duration": 40,
+  "difficulty": "intermediate",
+  "tags": ["networking", "ip-configuration", "network-settings"],
+  "tasks": [
+    {
+      "id": "access_network_settings",
+      "name": "Access Network Settings",
+      "description": "Learn to access Windows network adapter settings",
+      "instructions": [
+        "Right-click the network icon in system tray",
+        "Select 'Open Network & Internet settings'",
+        "Click 'Change adapter options'",
+        "Alternatively, use Windows+R and type 'ncpa.cpl'"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "screenshot",
+      "points": 10
+    },
+    {
+      "id": "configure_machine_network",
+      "name": "Configure Machine Network (192.168.214.x)",
+      "description": "Set up IP address for the main machine network",
+      "instructions": [
+        "Double-click your Ethernet adapter",
+        "Click Properties",
+        "Select Internet Protocol Version 4 (TCP/IPv4)",
+        "Click Properties",
+        "Select 'Use the following IP address'",
+        "IP address: 192.168.214.100",
+        "Subnet mask: 255.255.255.0",
+        "Default gateway: 192.168.214.1",
+        "Click OK and test with ping"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "ip_configuration",
+      "target_ip": "192.168.214.100",
+      "target_gateway": "192.168.214.1",
+      "points": 25
+    },
+    {
+      "id": "test_machine_network",
+      "name": "Test Machine Network Connectivity",
+      "description": "Verify connectivity to machine network devices",
+      "instructions": [
+        "Open Command Prompt",
+        "ping 192.168.214.1 (NCU Controller)",
+        "ping 192.168.214.34 (Service PC)",
+        "ping 192.168.214.35 (Operator PC)",
+        "ping 192.168.214.60 (Riveter PC)",
+        "Document all results"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "connectivity_test",
+      "test_targets": ["192.168.214.1", "192.168.214.34", "192.168.214.35", "192.168.214.60"],
+      "points": 15
+    },
+    {
+      "id": "configure_riveter_network",
+      "name": "Configure Riveter Network (192.168.213.x)",
+      "description": "Switch to the riveter network configuration",
+      "instructions": [
+        "Access network adapter properties",
+        "Configure IPv4 with:",
+        "IP address: 192.168.213.100",
+        "Subnet mask: 255.255.255.0",
+        "Default gateway: 192.168.213.1",
+        "Test connectivity to RTX system"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "ip_configuration",
+      "target_ip": "192.168.213.100",
+      "target_gateway": "192.168.213.1",
+      "points": 20
+    },
+    {
+      "id": "configure_video_network",
+      "name": "Configure Video Network (192.168.1.x)",
+      "description": "Set up IP for video recording network",
+      "instructions": [
+        "Configure IPv4 with:",
+        "IP address: 192.168.1.100",
+        "Subnet mask: 255.255.255.0",
+        "Default gateway: 192.168.1.1",
+        "Set DNS servers appropriately",
+        "Test connectivity"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "ip_configuration",
+      "target_ip": "192.168.1.100",
+      "target_gateway": "192.168.1.1",
+      "points": 20
+    },
+    {
+      "id": "restore_dhcp",
+      "name": "Restore DHCP Configuration",
+      "description": "Return network settings to automatic (DHCP)",
+      "instructions": [
+        "Access IPv4 properties",
+        "Select 'Obtain an IP address automatically'",
+        "Select 'Obtain DNS server address automatically'",
+        "Click OK",
+        "Verify DHCP works with ipconfig /all"
+      ],
+      "required": true,
+      "screenshot_required": true,
+      "verification_type": "dhcp_configuration",
+      "points": 10
+    }
+  ]
+}

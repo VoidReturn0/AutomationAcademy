@@ -1,0 +1,40 @@
+{
+    "name": "HMI Development",
+    "id": "hmi_development",
+    "version": "1.0.0",
+    "author": "Broetje Training Team",
+    "description": "Design and develop Human Machine Interfaces",
+    "prerequisites": ["basic_plc"],
+    "dependencies": [],
+    "difficulty": "intermediate",
+    "estimated_duration": "10 hours",
+    "tasks": [
+        {
+            "id": "hmi_basics",
+            "name": "HMI Design Basics",
+            "description": "Learn HMI design principles and best practices",
+            "points": 15
+        },
+        {
+            "id": "screen_creation",
+            "name": "Create Interactive Screens",
+            "description": "Build operator interface screens",
+            "points": 25
+        },
+        {
+            "id": "data_visualization",
+            "name": "Data Visualization",
+            "description": "Implement trending and data logging",
+            "points": 20
+        }
+    ],
+    "resources": {
+        "documentation": "resources/hmi_design_guide.pdf",
+        "templates": "resources/screen_templates/",
+        "assets": "resources/graphics/"
+    },
+    "certification": {
+        "required_score": 80,
+        "certificate_name": "HMI Developer"
+    }
+}
