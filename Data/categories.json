@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-01-14T23:41:36.9489287Z",
+  "categories": [
+    {
+      "id": "race",
+      "name": "RACe",
+      "description": "Reference material category: RACe",
+      "icon": "\uD83D\uDCC1",
+      "color": "#6C757D",
+      "order": 5,
+      "skill_levels": [
+        "Reference"
+      ],
+      "subcategories": [
+        {
+          "id": "startup",
+          "name": "Startup",
+          "description": "Reference subcategory under RACe",
+          "icon": "\uD83D\uDCC4",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "networking",
+      "name": "Networking",
+      "description": "",
+      "icon": "\uD83D\uDDA5\uFE0F",
+      "color": "#007ACC",
+      "order": 2,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "test",
+          "name": "1) Changing laptops IP address",
+          "description": "Learn the basics of IP address use",
+          "icon": "\uD83D\uDCBB",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    }
+  ],
+  "reference_categories": [],
+  "learning_paths": [
+    {
+      "id": "basic_technician",
+      "name": "Basic Technician Certification",
+      "description": "Essential skills for new automation technicians",
+      "icon": "\uD83C\uDFAF",
+      "estimated_weeks": 4,
+      "required_categories": [
+        "networking_connectivity",
+        "safety_compliance"
+      ],
+      "required_subcategories": [
+        "file_sharing",
+        "network_diagnostics",
+        "safety_procedures",
+        "lockout_tagout"
+      ],
+      "prerequisites": [],
+      "certification_level": "Basic"
+    },
+    {
+      "id": "advanced_technician",
+      "name": "Advanced Technician Certification",
+      "description": "Advanced maintenance and scripting skills",
+      "icon": "\uD83D\uDE80",
+      "estimated_weeks": 8,
+      "required_categories": [
+        "networking_connectivity",
+        "system_maintenance",
+        "safety_compliance"
+      ],
+      "required_subcategories": [
+        "ip_configuration",
+        "remote_access",
+        "backup_restore",
+        "hardware_replacement",
+        "regulatory_compliance"
+      ],
+      "prerequisites": [
+        "basic_technician"
+      ],
+      "certification_level": "Advanced"
+    },
+    {
+      "id": "automation_specialist",
+      "name": "Automation Specialist Certification",
+      "description": "Complete automation and scripting expertise",
+      "icon": "\uD83C\uDFC6",
+      "estimated_weeks": 12,
+      "required_categories": [
+        "networking_connectivity",
+        "system_maintenance",
+        "automation_scripting",
+        "safety_compliance"
+      ],
+      "required_subcategories": [
+        "system_optimization",
+        "powershell_basics",
+        "automation_scripts",
+        "monitoring_alerts"
+      ],
+      "prerequisites": [
+        "advanced_technician"
+      ],
+      "certification_level": "Expert"
+    }
+  ]
+}
