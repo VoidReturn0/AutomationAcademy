@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2024-12-17T00:00:00Z",
+  "last_sync": null,
+  "employees": [
+    {
+      "employee_id": "BA001",
+      "username": "admin",
+      "first_name": "System",
+      "last_name": "Administrator",
+      "email": "admin@broetje.com",
+      "department": "IT",
+      "position": "System Administrator",
+      "hire_date": "2020-01-01",
+      "manager_id": null,
+      "location": "Corporate",
+      "network": "management",
+      "role": "Admin",
+      "is_active": true,
+      "certifications": [],
+      "skill_level": "Expert",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-12-17T00:00:00Z"
+    },
+    {
+      "employee_id": "BA002",
+      "username": "jsmith",
+      "first_name": "John",
+      "last_name": "Smith",
+      "email": "john.smith@broetje.com",
+      "department": "Controls Engineering",
+      "position": "Senior Controls Engineer",
+      "hire_date": "2022-03-15",
+      "manager_id": "BA001",
+      "location": "Production Floor",
+      "network": "production",
+      "role": "Instructor",
+      "is_active": true,
+      "certifications": [
+        "Siemens TIA Portal Advanced",
+        "Network Diagnostics Certified"
+      ],
+      "skill_level": "Advanced",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-12-17T00:00:00Z"
+    },
+    {
+      "employee_id": "BA003",
+      "username": "mjohnson",
+      "first_name": "Mike",
+      "last_name": "Johnson",
+      "email": "mike.johnson@broetje.com",
+      "department": "Controls Engineering",
+      "position": "Controls Technician",
+      "hire_date": "2023-09-01",
+      "manager_id": "BA002",
+      "location": "Engineering Lab",
+      "network": "engineering",
+      "role": "Trainee",
+      "is_active": true,
+      "certifications": [],
+      "skill_level": "Beginner",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-12-17T00:00:00Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "controls_engineering",
+      "name": "Controls Engineering",
+      "description": "Automation control systems and programming",
+      "manager_id": "BA002",
+      "location": "Production Floor"
+    },
+    {
+      "id": "it",
+      "name": "Information Technology",
+      "description": "IT infrastructure and systems",
+      "manager_id": "BA001",
+      "location": "Corporate"
+    }
+  ],
+  "locations": [
+    {
+      "id": "corporate",
+      "name": "Corporate Office",
+      "address": "1234 Automation Way, Industrial City, WA 98001",
+      "network_segment": "192.168.1.0/24"
+    },
+    {
+      "id": "production_floor",
+      "name": "Production Floor",
+      "address": "Manufacturing Building A",
+      "network_segment": "192.168.214.0/24"
+    },
+    {
+      "id": "engineering_lab",
+      "name": "Engineering Laboratory",
+      "address": "Engineering Building B",
+      "network_segment": "192.168.213.0/24"
+    }
+  ]
+}
