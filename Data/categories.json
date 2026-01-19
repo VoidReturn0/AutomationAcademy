@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-01-14T23:41:36.9489287Z",
+  "last_updated": "2026-01-19T18:27:54.3205915Z",
   "categories": [
     {
       "id": "race",
@@ -42,6 +42,30 @@
           "name": "1) Changing laptops IP address",
           "description": "Learn the basics of IP address use",
           "icon": "\uD83D\uDCBB",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "plc",
+      "name": "PLC",
+      "description": "",
+      "icon": "\uD83D\uDCBE",
+      "color": "#007ACC",
+      "order": 3,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "introduction",
+          "name": "Introduction",
+          "description": "A brief introduction to PLC\u0027s",
+          "icon": "\uD83D\uDCC2",
           "order": 1,
           "prerequisites": [],
           "estimated_hours": 0
