@@ -1,5 +1,7 @@
 {
   "Id": 26,
+  "ExternalId": "258aafe4-1126-447c-8ced-38d2f9c85496",
+  "ModuleFolderPath": "Modules\\258aafe4-1126-447c-8ced-38d2f9c85496",
   "Name": "Change your laptops IP address",
   "Description": "",
   "Category": "networking",
