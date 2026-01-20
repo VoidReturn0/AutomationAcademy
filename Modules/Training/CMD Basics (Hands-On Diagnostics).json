@@ -1,5 +1,7 @@
 {
   "Id": 39,
+  "ExternalId": "73d09233-861e-480a-8eef-f3ce6d17eb07",
+  "ModuleFolderPath": "Modules\\73d09233-861e-480a-8eef-f3ce6d17eb07",
   "Name": "CMD Basics (Hands-On Diagnostics)",
   "Description": "Why CMD Matters\n\nCMD gives you ground truth. GUIs can lie; the command line doesn\u2019t.",
   "Category": "networking",
