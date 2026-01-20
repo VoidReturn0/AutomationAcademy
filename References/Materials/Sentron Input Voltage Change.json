@@ -1,5 +1,7 @@
 {
   "Id": 24,
+  "ExternalId": "ddf3b5f7-2750-4fe7-8b7c-fc89e69b5f3f",
+  "ModuleFolderPath": "Modules\\ddf3b5f7-2750-4fe7-8b7c-fc89e69b5f3f",
   "Name": "Sentron Input Voltage Change",
   "Description": "Reference material imported from Sentron Input Voltage Change.pdf",
   "Category": "race",
