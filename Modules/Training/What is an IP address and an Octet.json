@@ -1,5 +1,7 @@
 {
   "Id": 35,
+  "ExternalId": "eb176725-e5b2-4dc1-a7cd-1aac7ff1f921",
+  "ModuleFolderPath": "Modules\\eb176725-e5b2-4dc1-a7cd-1aac7ff1f921",
   "Name": "What is an IP address and an Octet?",
   "Description": "admin\u0027s training module",
   "Category": "networking",
