@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-01-19T18:27:54.3205915Z",
+  "last_updated": "2026-01-20T15:58:42.0464665Z",
   "categories": [
     {
       "id": "race",
@@ -19,6 +19,69 @@
           "description": "Reference subcategory under RACe",
           "icon": "\uD83D\uDCC4",
           "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "fike",
+          "name": "FIKE",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "scale",
+          "name": "SCALE",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 3,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "wincc",
+          "name": "WINCC",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 4,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "pluto",
+          "name": "PLUTO",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 5,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "sick_scanners",
+          "name": "SICK Scanners",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 6,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "database",
+          "name": "Database",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 7,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "setup_procedures",
+          "name": "Setup Procedures",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 8,
           "prerequisites": [],
           "estimated_hours": 0
         }
@@ -73,7 +136,20 @@
       ]
     }
   ],
-  "reference_categories": [],
+  "reference_categories": [
+    {
+      "id": "mpac",
+      "name": "MPAC",
+      "description": "",
+      "icon": "\u2699\uFE0F",
+      "color": "#6C757D",
+      "order": 1,
+      "skill_levels": [
+        "Reference"
+      ],
+      "subcategories": []
+    }
+  ],
   "learning_paths": [
     {
       "id": "basic_technician",
