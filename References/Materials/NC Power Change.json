@@ -1,5 +1,7 @@
 {
   "Id": 25,
+  "ExternalId": "eb818784-2cfb-4ca8-a633-0db84c81967c",
+  "ModuleFolderPath": "Modules\\eb818784-2cfb-4ca8-a633-0db84c81967c",
   "Name": "NC Power Change",
   "Description": "Reference material imported from NC Power Change.pdf",
   "Category": "race",
