@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-01-21T14:52:53.1063773Z",
+  "last_updated": "2026-01-21T16:48:30.9160219Z",
   "categories": [
     {
       "id": "race",
@@ -130,6 +130,57 @@
           "description": "A brief introduction to PLC\u0027s",
           "icon": "\uD83D\uDCC2",
           "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "broetje_knowledge",
+      "name": "Broetje Knowledge",
+      "description": "Broetje Automation specific knowledge and procedures",
+      "icon": "\uD83D\uDCC1",
+      "color": "#007ACC",
+      "order": 4,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "parts",
+          "name": "Parts",
+          "description": "Parts and components information",
+          "icon": "\uD83D\uDCC2",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "electrical",
+          "name": "Electrical",
+          "description": "Electrical systems and wiring",
+          "icon": "\uD83D\uDCC2",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "backups",
+          "name": "Backups",
+          "description": "Backup procedures and data management",
+          "icon": "\uD83D\uDCC2",
+          "order": 3,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "race_overview",
+          "name": "RACe Overview",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 4,
           "prerequisites": [],
           "estimated_hours": 0
         }
