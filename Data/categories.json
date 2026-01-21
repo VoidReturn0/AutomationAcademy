@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-01-20T15:58:42.0464665Z",
+  "last_updated": "2026-01-21T14:52:53.1063773Z",
   "categories": [
     {
       "id": "race",
@@ -78,7 +78,7 @@
         },
         {
           "id": "setup_procedures",
-          "name": "Setup Procedures",
+          "name": "Calibration Procedures",
           "description": "",
           "icon": "\uD83D\uDCC4",
           "order": 8,
