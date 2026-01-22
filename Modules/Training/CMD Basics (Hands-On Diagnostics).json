@@ -1,5 +1,5 @@
 {
-  "Id": 39,
+  "Id": 9,
   "ExternalId": "73d09233-861e-480a-8eef-f3ce6d17eb07",
   "ModuleFolderPath": "Modules\\73d09233-861e-480a-8eef-f3ce6d17eb07",
   "Name": "CMD Basics (Hands-On Diagnostics)",
@@ -23,14 +23,16 @@
   "TemplateId": null,
   "Status": 3,
   "Tags": null,
+  "SearchKeywords": null,
   "ComplianceRequirements": null,
   "IsReferenceMaterial": false,
   "OriginalFileType": null,
   "OriginalFilePath": null,
+  "IsFormatPreserved": false,
   "Sections": [
     {
-      "Id": 50,
-      "ModuleId": 39,
+      "Id": 8,
+      "ModuleId": 9,
       "Title": "Opening CMD",
       "Subtitle": null,
       "OrderIndex": 0,
@@ -45,8 +47,8 @@
       "Module": null,
       "ContentBlocks": [
         {
-          "Id": 44,
-          "SectionId": 50,
+          "Id": 28,
+          "SectionId": 8,
           "Type": 1,
           "TextContent": "\u003CFlowDocument FontSize=\u002214\u0022 Foreground=\u0022#FFFFFFFF\u0022 Background=\u0022#FF1A1A1A\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 ColumnWidth=\u0022Auto\u0022 IsOptimalParagraphEnabled=\u0022False\u0022 PageWidth=\u0022Auto\u0022 PageHeight=\u0022Auto\u0022 PagePadding=\u00225,0,5,0\u0022 IsHyphenationEnabled=\u0022False\u0022 AllowDrop=\u0022True\u0022 NumberSubstitution.CultureSource=\u0022User\u0022 xmlns=\u0022http://schemas.microsoft.com/winfx/2006/xaml/presentation\u0022\u003E\u003CParagraph TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022\u003E-Windows \u002B R \u2192 cmd \u2192 Enter\u003C/Paragraph\u003E\u003CParagraph TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022\u003E-Or Start Menu \u2192 type cmd\u003C/Paragraph\u003E\u003C/FlowDocument\u003E",
           "PlainTextContent": "Click here to add text content...",
@@ -66,8 +68,8 @@
           "Interactions": []
         },
         {
-          "Id": 45,
-          "SectionId": 50,
+          "Id": 29,
+          "SectionId": 8,
           "Type": 4,
           "TextContent": "",
           "PlainTextContent": "",
@@ -90,8 +92,8 @@
       "Assessments": []
     },
     {
-      "Id": 52,
-      "ModuleId": 39,
+      "Id": 9,
+      "ModuleId": 9,
       "Title": "ipconfig \u2014 \u201CWho Am I on This Network?\u201D",
       "Subtitle": null,
       "OrderIndex": 10,
@@ -106,8 +108,8 @@
       "Module": null,
       "ContentBlocks": [
         {
-          "Id": 46,
-          "SectionId": 52,
+          "Id": 30,
+          "SectionId": 9,
           "Type": 10,
           "TextContent": "IPCONFIG",
           "PlainTextContent": "// Add code example here",
@@ -127,8 +129,8 @@
           "Interactions": []
         },
         {
-          "Id": 47,
-          "SectionId": 52,
+          "Id": 31,
+          "SectionId": 9,
           "Type": 1,
           "TextContent": "\u003CFlowDocument FontSize=\u002214\u0022 Foreground=\u0022#FFFFFFFF\u0022 Background=\u0022#FF1A1A1A\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 ColumnWidth=\u0022Auto\u0022 IsOptimalParagraphEnabled=\u0022False\u0022 PageWidth=\u0022Auto\u0022 PageHeight=\u0022Auto\u0022 PagePadding=\u00225,0,5,0\u0022 IsHyphenationEnabled=\u0022False\u0022 AllowDrop=\u0022True\u0022 NumberSubstitution.CultureSource=\u0022User\u0022 xmlns=\u0022http://schemas.microsoft.com/winfx/2006/xaml/presentation\u0022\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EWhat It Shows\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-IPv4 Address\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Subnet Mask\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Default Gateway\u003C/Run\u003E\u003C/Paragraph\u003E\u003C/FlowDocument\u003E",
           "PlainTextContent": "Click here to add text content...",
@@ -148,8 +150,8 @@
           "Interactions": []
         },
         {
-          "Id": 48,
-          "SectionId": 52,
+          "Id": 32,
+          "SectionId": 9,
           "Type": 10,
           "TextContent": "IPv4 Address . . . . . : 192.168.214.37\r\nSubnet Mask  . . . . . : 255.255.255.0\r\nDefault Gateway . . .  : 192.168.214.1",
           "PlainTextContent": "// Add code example here",
@@ -169,8 +171,8 @@
           "Interactions": []
         },
         {
-          "Id": 49,
-          "SectionId": 52,
+          "Id": 33,
+          "SectionId": 9,
           "Type": 1,
           "TextContent": "\u003CFlowDocument FontSize=\u002214\u0022 Foreground=\u0022#FFFFFFFF\u0022 Background=\u0022#FF1A1A1A\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 ColumnWidth=\u0022Auto\u0022 IsOptimalParagraphEnabled=\u0022False\u0022 PageWidth=\u0022Auto\u0022 PageHeight=\u0022Auto\u0022 PagePadding=\u00225,0,5,0\u0022 IsHyphenationEnabled=\u0022False\u0022 AllowDrop=\u0022True\u0022 NumberSubstitution.CultureSource=\u0022User\u0022 xmlns=\u0022http://schemas.microsoft.com/winfx/2006/xaml/presentation\u0022\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EHow to Read It:\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E1\uFE0F\u20E3 Check the Third Octet\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E214 \u2192 correct network?\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E213 \u2192 wrong network?\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EIf the third octet is wrong, stop troubleshooting here.\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E2\uFE0F\u20E3 Check the Subnet Mask\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EShould almost always be 255.255.255.0\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EAnything else = red flag\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EWrong subnet = devices look close but can\u2019t see each other.\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E3\uFE0F\u20E3 Gateway (When It Matters)\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EGateway allows traffic outside the local network\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EIf talking only locally \u2192 gateway not required\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EIf crossing networks \u2192 gateway must be correct\u003C/Paragraph\u003E\u003C/FlowDocument\u003E",
           "PlainTextContent": "Click here to add text content...",
@@ -190,8 +192,8 @@
           "Interactions": []
         },
         {
-          "Id": 50,
-          "SectionId": 52,
+          "Id": 34,
+          "SectionId": 9,
           "Type": 10,
           "TextContent": "ipconfig /all",
           "PlainTextContent": "// Add code example here",
@@ -211,8 +213,8 @@
           "Interactions": []
         },
         {
-          "Id": 51,
-          "SectionId": 52,
+          "Id": 35,
+          "SectionId": 9,
           "Type": 1,
           "TextContent": "\u003CFlowDocument FontSize=\u002214\u0022 Foreground=\u0022#FFFFFFFF\u0022 Background=\u0022#FF1A1A1A\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 ColumnWidth=\u0022Auto\u0022 IsOptimalParagraphEnabled=\u0022False\u0022 PageWidth=\u0022Auto\u0022 PageHeight=\u0022Auto\u0022 PagePadding=\u00225,0,5,0\u0022 IsHyphenationEnabled=\u0022False\u0022 AllowDrop=\u0022True\u0022 NumberSubstitution.CultureSource=\u0022User\u0022 xmlns=\u0022http://schemas.microsoft.com/winfx/2006/xaml/presentation\u0022\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EAdds:\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-MAC address\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-DHCP status\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-DNS servers\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003ETeach leads:\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EDuplicate IP problems often show up as MAC mismatches.\u003C/Paragraph\u003E\u003C/FlowDocument\u003E",
           "PlainTextContent": "Click here to add text content...",
@@ -232,8 +234,8 @@
           "Interactions": []
         },
         {
-          "Id": 52,
-          "SectionId": 52,
+          "Id": 36,
+          "SectionId": 9,
           "Type": 20,
           "TextContent": "Type: warning\nDuplicate IP address\u0027s on the same network will cause communication errors!!!",
           "PlainTextContent": "Add an important note or callout",
@@ -256,8 +258,8 @@
       "Assessments": []
     },
     {
-      "Id": 53,
-      "ModuleId": 39,
+      "Id": 10,
+      "ModuleId": 9,
       "Title": "Changing your IP address",
       "Subtitle": null,
       "OrderIndex": 20,
@@ -272,8 +274,8 @@
       "Module": null,
       "ContentBlocks": [
         {
-          "Id": 55,
-          "SectionId": 53,
+          "Id": 37,
+          "SectionId": 10,
           "Type": 1,
           "TextContent": "\u003CFlowDocument FontSize=\u002214\u0022 Foreground=\u0022#FFFFFFFF\u0022 Background=\u0022#FF1A1A1A\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 ColumnWidth=\u0022Auto\u0022 IsOptimalParagraphEnabled=\u0022False\u0022 PageWidth=\u0022Auto\u0022 PageHeight=\u0022Auto\u0022 PagePadding=\u00225,0,5,0\u0022 IsHyphenationEnabled=\u0022False\u0022 AllowDrop=\u0022True\u0022 NumberSubstitution.CultureSource=\u0022User\u0022 xmlns=\u0022http://schemas.microsoft.com/winfx/2006/xaml/presentation\u0022\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Open control panel\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Click on Network and Sharing\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Click on Change Adapter Settings\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Right click on your Ethernet adapter and select Properties\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Scroll to IPV4 and select Properties\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Make any required changes here\u003C/Run\u003E\u003C/Paragraph\u003E\u003C/FlowDocument\u003E",
           "PlainTextContent": "Click here to add text content...",
@@ -293,8 +295,8 @@
           "Interactions": []
         },
         {
-          "Id": 56,
-          "SectionId": 53,
+          "Id": 38,
+          "SectionId": 10,
           "Type": 4,
           "TextContent": "",
           "PlainTextContent": "",
@@ -314,8 +316,8 @@
           "Interactions": []
         },
         {
-          "Id": 59,
-          "SectionId": 53,
+          "Id": 39,
+          "SectionId": 10,
           "Type": 4,
           "TextContent": "",
           "PlainTextContent": "",
@@ -335,8 +337,8 @@
           "Interactions": []
         },
         {
-          "Id": 60,
-          "SectionId": 53,
+          "Id": 40,
+          "SectionId": 10,
           "Type": 4,
           "TextContent": "",
           "PlainTextContent": "",
@@ -356,8 +358,8 @@
           "Interactions": []
         },
         {
-          "Id": 61,
-          "SectionId": 53,
+          "Id": 41,
+          "SectionId": 10,
           "Type": 4,
           "TextContent": "",
           "PlainTextContent": "",
@@ -377,8 +379,8 @@
           "Interactions": []
         },
         {
-          "Id": 62,
-          "SectionId": 53,
+          "Id": 42,
+          "SectionId": 10,
           "Type": 4,
           "TextContent": "",
           "PlainTextContent": "",
@@ -401,8 +403,8 @@
       "Assessments": []
     },
     {
-      "Id": 54,
-      "ModuleId": 39,
+      "Id": 11,
+      "ModuleId": 9,
       "Title": "ping \u2014 \u201CCan I Reach It?\u201D",
       "Subtitle": null,
       "OrderIndex": 30,
@@ -417,8 +419,8 @@
       "Module": null,
       "ContentBlocks": [
         {
-          "Id": 64,
-          "SectionId": 54,
+          "Id": 43,
+          "SectionId": 11,
           "Type": 20,
           "TextContent": "Change your IP address to be within the machines network (192.169.214.x),\r\nthen plug an ethernet cable into the system",
           "PlainTextContent": "Add an important note or callout",
@@ -438,8 +440,8 @@
           "Interactions": []
         },
         {
-          "Id": 65,
-          "SectionId": 54,
+          "Id": 44,
+          "SectionId": 11,
           "Type": 10,
           "TextContent": "ping 192.168.214.34",
           "PlainTextContent": "// Add code example here",
@@ -459,8 +461,8 @@
           "Interactions": []
         },
         {
-          "Id": 66,
-          "SectionId": 54,
+          "Id": 45,
+          "SectionId": 11,
           "Type": 1,
           "TextContent": "\u003CFlowDocument FontSize=\u002214\u0022 Foreground=\u0022#FFFFFFFF\u0022 Background=\u0022#FF1A1A1A\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 ColumnWidth=\u0022Auto\u0022 IsOptimalParagraphEnabled=\u0022False\u0022 PageWidth=\u0022Auto\u0022 PageHeight=\u0022Auto\u0022 PagePadding=\u00225,0,5,0\u0022 IsHyphenationEnabled=\u0022False\u0022 AllowDrop=\u0022True\u0022 NumberSubstitution.CultureSource=\u0022User\u0022 xmlns=\u0022http://schemas.microsoft.com/winfx/2006/xaml/presentation\u0022\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EPing answers one question only:\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003ECan my computer send packets to that device and get them back?\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003ETypical Outputs \u0026amp; Meaning\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u2705 Success\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EReply from 192.168.214.10: time=1ms\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EMeans:\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Power OK\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Cable OK\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-IP OK\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003ENetwork path OK\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u274C Timeout\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003ERequest timed out.\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EUsually means:\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Device powered off\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Firewall blocking\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Bad cable\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EWrong port\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u274C Destination Host Unreachable\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EDestination host unreachable.\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EUsually means:\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Wrong subnet\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-No route to network\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Gateway issue\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022\u003EPing Behavior Patterns \u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022\u003EBehavior\tMeaning\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022\u003E-Instant failure\tIP/subnet wrong\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022\u003E-Long timeout\tFirewall or powered-off device\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022\u003E-Intermittent replies\tBad cable or duplicate IP\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EHow ping fails is just as important as if it fails.\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EContinuous Ping (Highly Useful)\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003Eping 192.168.214.10 -t\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EUse this when:\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Wiggling cables\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Power cycling devices\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Testing intermittent faults\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EStop with:\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003ECtrl \u002B C\u003C/Run\u003E\u003C/Paragraph\u003E\u003C/FlowDocument\u003E",
           "PlainTextContent": "Click here to add text content...",
@@ -483,8 +485,8 @@
       "Assessments": []
     },
     {
-      "Id": 55,
-      "ModuleId": 39,
+      "Id": 12,
+      "ModuleId": 9,
       "Title": "tracert \u2014 \u201CWhere Does It Break?\u201D",
       "Subtitle": null,
       "OrderIndex": 40,
@@ -499,8 +501,8 @@
       "Module": null,
       "ContentBlocks": [
         {
-          "Id": 68,
-          "SectionId": 55,
+          "Id": 46,
+          "SectionId": 12,
           "Type": 10,
           "TextContent": "tracert 192.168.214.34",
           "PlainTextContent": "// Add code example here",
@@ -520,8 +522,8 @@
           "Interactions": []
         },
         {
-          "Id": 69,
-          "SectionId": 55,
+          "Id": 47,
+          "SectionId": 12,
           "Type": 1,
           "TextContent": "\u003CFlowDocument FontSize=\u002214\u0022 Foreground=\u0022#FFFFFFFF\u0022 Background=\u0022#FF1A1A1A\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 ColumnWidth=\u0022Auto\u0022 IsOptimalParagraphEnabled=\u0022False\u0022 PageWidth=\u0022Auto\u0022 PageHeight=\u0022Auto\u0022 PagePadding=\u00225,0,5,0\u0022 IsHyphenationEnabled=\u0022False\u0022 AllowDrop=\u0022True\u0022 NumberSubstitution.CultureSource=\u0022User\u0022 xmlns=\u0022http://schemas.microsoft.com/winfx/2006/xaml/presentation\u0022\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EThis shows each hop the packet takes.\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EExample Output\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022\u003E1  192.168.214.1\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022\u003E2  * * *\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EMeaning:\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Hop 1 works\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-Hop 2 fails \u2192 routing, VLAN, or firewall\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003EHow Techs Should Use It\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-If it fails at hop 1 \u2192 local problem\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E-If it fails later \u2192 network infrastructure problem\u003C/Run\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022 xml:space=\u0022preserve\u0022 /\u003E\u003C/Paragraph\u003E\u003CParagraph Margin=\u00220,0,0,6\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 LineHeight=\u0022Auto\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003E\u003CRun BaselineAlignment=\u0022Baseline\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003ETracert tells you who owns the problem.\u003C/Run\u003E\u003C/Paragraph\u003E\u003C/FlowDocument\u003E",
           "PlainTextContent": "Click here to add text content...",
