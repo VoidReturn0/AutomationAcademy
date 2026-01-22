@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-01-21T16:48:30.9160219Z",
+  "last_updated": "2026-01-22T14:14:12.3057921Z",
   "categories": [
     {
       "id": "race",
@@ -82,6 +82,24 @@
           "description": "",
           "icon": "\uD83D\uDCC4",
           "order": 8,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "major_learning_lessons",
+          "name": "Major Learning Lessons",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 9,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "modifications",
+          "name": "Modifications",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 10,
           "prerequisites": [],
           "estimated_hours": 0
         }
@@ -198,7 +216,57 @@
       "skill_levels": [
         "Reference"
       ],
-      "subcategories": []
+      "subcategories": [
+        {
+          "id": "major_learning_lessons",
+          "name": "Major Learning Lessons",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "modifications",
+          "name": "Modifications",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "stacker",
+      "name": "Stacker",
+      "description": "",
+      "icon": "\u2699\uFE0F",
+      "color": "#6C757D",
+      "order": 2,
+      "skill_levels": [
+        "Reference"
+      ],
+      "subcategories": [
+        {
+          "id": "modifications",
+          "name": "Modifications",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "major_learning_lessons",
+          "name": "Major Learning Lessons",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
     }
   ],
   "learning_paths": [
