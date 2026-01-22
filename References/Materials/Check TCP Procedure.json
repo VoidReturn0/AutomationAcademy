@@ -1,5 +1,5 @@
 {
-  "Id": 70,
+  "Id": 3,
   "ExternalId": "d2ecbcac-49a6-4eaa-858c-a7801b252171",
   "ModuleFolderPath": null,
   "Name": "Check TCP Procedure",
@@ -28,6 +28,7 @@
   "IsReferenceMaterial": true,
   "OriginalFileType": "pptx",
   "OriginalFilePath": "C:\\Users\\michaelg\\AppData\\Local\\AutomationAcademy\\Resources\\References\\b5de029f-8215-4447-8bf9-4060c6f0be8c_07 170524 - POWER RACe Gulfstream - Trainer_Check TCP MT.pptx",
+  "IsFormatPreserved": false,
   "Sections": [],
   "Tasks": [],
   "UserProgress": [],
