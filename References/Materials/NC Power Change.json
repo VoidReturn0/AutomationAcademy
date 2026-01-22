@@ -1,5 +1,5 @@
 {
-  "Id": 41,
+  "Id": 4,
   "ExternalId": "eb818784-2cfb-4ca8-a633-0db84c81967c",
   "ModuleFolderPath": "Modules\\eb818784-2cfb-4ca8-a633-0db84c81967c",
   "Name": "NC Power Change",
@@ -23,14 +23,16 @@
   "TemplateId": null,
   "Status": 3,
   "Tags": "RACe, Startup, Reference",
+  "SearchKeywords": null,
   "ComplianceRequirements": null,
   "IsReferenceMaterial": true,
   "OriginalFileType": "pdf",
   "OriginalFilePath": "C:\\Users\\michaelg\\AppData\\Local\\AutomationAcademy\\Resources\\References\\dadf0bdb-66c2-44a8-b392-b4b48dd819cc_NC Power Change.pdf",
+  "IsFormatPreserved": false,
   "Sections": [
     {
-      "Id": 63,
-      "ModuleId": 41,
+      "Id": 2,
+      "ModuleId": 4,
       "Title": "Nc Power Change",
       "Subtitle": null,
       "OrderIndex": 0,
@@ -45,8 +47,8 @@
       "Module": null,
       "ContentBlocks": [
         {
-          "Id": 119,
-          "SectionId": 63,
+          "Id": 17,
+          "SectionId": 2,
           "Type": 1,
           "TextContent": "Nc Power Change",
           "PlainTextContent": null,
@@ -69,8 +71,8 @@
       "Assessments": []
     },
     {
-      "Id": 64,
-      "ModuleId": 41,
+      "Id": 3,
+      "ModuleId": 4,
       "Title": "Document Content",
       "Subtitle": null,
       "OrderIndex": 1,
@@ -85,8 +87,8 @@
       "Module": null,
       "ContentBlocks": [
         {
-          "Id": 120,
-          "SectionId": 64,
+          "Id": 18,
+          "SectionId": 3,
           "Type": 0,
           "TextContent": "Writing Incoming Power to NC \n \nSummary \nUpon a Power RACe\u2019s installation the incoming power will have to be changed in \nthe NC \n \n-Setup (LVL4) \n-Drive System \n-Supply \n-Configuration \n-Power Data \n-Accept \n-Change \n-Next \n-Make Changes (480V) \n-Next x2 \n-Alarm is normal, turn drives on and wait for new measurement to take place",
           "PlainTextContent": null,
@@ -106,8 +108,8 @@
           "Interactions": []
         },
         {
-          "Id": 121,
-          "SectionId": 64,
+          "Id": 19,
+          "SectionId": 3,
           "Type": 4,
           "TextContent": "Image 1 (Page 1): img_p1_01.jpg",
           "PlainTextContent": null,
