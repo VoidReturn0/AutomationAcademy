@@ -1,5 +1,5 @@
 {
-  "Id": 44,
+  "Id": 2,
   "ExternalId": "4ce4f82d-120b-4d17-b929-d40846bab7be",
   "ModuleFolderPath": "Modules\\4ce4f82d-120b-4d17-b929-d40846bab7be",
   "Name": "Barcode Reader OHV110 (1)",
@@ -28,10 +28,11 @@
   "IsReferenceMaterial": true,
   "OriginalFileType": "docx",
   "OriginalFilePath": "C:\\Users\\michaelg\\AppData\\Local\\AutomationAcademy\\Resources\\References\\141e67ce-882d-4d02-bdc2-f4fdcd41feef_Barcode Reader OHV110 (1).docx",
+  "IsFormatPreserved": false,
   "Sections": [
     {
-      "Id": 67,
-      "ModuleId": 44,
+      "Id": 1,
+      "ModuleId": 2,
       "Title": "Barcode Scanner Reset/Programming Procedure",
       "Subtitle": null,
       "OrderIndex": 0,
@@ -46,8 +47,8 @@
       "Module": null,
       "ContentBlocks": [
         {
-          "Id": 127,
-          "SectionId": 67,
+          "Id": 1,
+          "SectionId": 1,
           "Type": 1,
           "TextContent": "Reset to factory defaults",
           "PlainTextContent": "Reset to factory defaults",
@@ -67,8 +68,8 @@
           "Interactions": []
         },
         {
-          "Id": 128,
-          "SectionId": 67,
+          "Id": 2,
+          "SectionId": 1,
           "Type": 4,
           "TextContent": "Image from 141e67ce-882d-4d02-bdc2-f4fdcd41feef_Barcode Reader OHV110 (1)",
           "PlainTextContent": null,
@@ -88,8 +89,8 @@
           "Interactions": []
         },
         {
-          "Id": 129,
-          "SectionId": 67,
+          "Id": 3,
+          "SectionId": 1,
           "Type": 1,
           "TextContent": "Set RS-232 communication to raw mode",
           "PlainTextContent": "Set RS-232 communication to raw mode",
@@ -109,8 +110,8 @@
           "Interactions": []
         },
         {
-          "Id": 130,
-          "SectionId": 67,
+          "Id": 4,
+          "SectionId": 1,
           "Type": 4,
           "TextContent": "Image from 141e67ce-882d-4d02-bdc2-f4fdcd41feef_Barcode Reader OHV110 (1)",
           "PlainTextContent": null,
@@ -130,8 +131,8 @@
           "Interactions": []
         },
         {
-          "Id": 131,
-          "SectionId": 67,
+          "Id": 5,
+          "SectionId": 1,
           "Type": 1,
           "TextContent": "Activate 8 data bits",
           "PlainTextContent": "Activate 8 data bits",
@@ -151,8 +152,8 @@
           "Interactions": []
         },
         {
-          "Id": 132,
-          "SectionId": 67,
+          "Id": 6,
+          "SectionId": 1,
           "Type": 4,
           "TextContent": "Image from 141e67ce-882d-4d02-bdc2-f4fdcd41feef_Barcode Reader OHV110 (1)",
           "PlainTextContent": null,
@@ -172,8 +173,8 @@
           "Interactions": []
         },
         {
-          "Id": 133,
-          "SectionId": 67,
+          "Id": 7,
+          "SectionId": 1,
           "Type": 1,
           "TextContent": "Set communication to RS-232 9600 Baud",
           "PlainTextContent": "Set communication to RS-232 9600 Baud",
@@ -193,8 +194,8 @@
           "Interactions": []
         },
         {
-          "Id": 134,
-          "SectionId": 67,
+          "Id": 8,
+          "SectionId": 1,
           "Type": 4,
           "TextContent": "Image from 141e67ce-882d-4d02-bdc2-f4fdcd41feef_Barcode Reader OHV110 (1)",
           "PlainTextContent": null,
@@ -214,8 +215,8 @@
           "Interactions": []
         },
         {
-          "Id": 135,
-          "SectionId": 67,
+          "Id": 9,
+          "SectionId": 1,
           "Type": 1,
           "TextContent": "Set \u201Cspace (20h)\u201D as prefix",
           "PlainTextContent": "Set \u201Cspace (20h)\u201D as prefix",
@@ -235,8 +236,8 @@
           "Interactions": []
         },
         {
-          "Id": 136,
-          "SectionId": 67,
+          "Id": 10,
+          "SectionId": 1,
           "Type": 4,
           "TextContent": "Image from 141e67ce-882d-4d02-bdc2-f4fdcd41feef_Barcode Reader OHV110 (1)",
           "PlainTextContent": null,
@@ -256,8 +257,8 @@
           "Interactions": []
         },
         {
-          "Id": 137,
-          "SectionId": 67,
+          "Id": 11,
+          "SectionId": 1,
           "Type": 1,
           "TextContent": "Set \u201Cspace (20h)\u201D as suffix",
           "PlainTextContent": "Set \u201Cspace (20h)\u201D as suffix",
@@ -277,8 +278,8 @@
           "Interactions": []
         },
         {
-          "Id": 138,
-          "SectionId": 67,
+          "Id": 12,
+          "SectionId": 1,
           "Type": 4,
           "TextContent": "Image from 141e67ce-882d-4d02-bdc2-f4fdcd41feef_Barcode Reader OHV110 (1)",
           "PlainTextContent": null,
@@ -298,8 +299,8 @@
           "Interactions": []
         },
         {
-          "Id": 139,
-          "SectionId": 67,
+          "Id": 13,
+          "SectionId": 1,
           "Type": 1,
           "TextContent": "Test\r\n\r\nTo validate the readers function the following barcodes can be scanned and monitored on the operator HMI.\r\n\r\nDisplay scanned barcode\r\n\r\nTo display the scanned barcode simply open the operator HMI. The last scanned barcode is displayed in the bottom left corner of every screen.",
           "PlainTextContent": "Test\r\n\r\nTo validate the readers function the following barcodes can be scanned and monitored on the operator HMI.\r\n\r\nDisplay scanned barcode\r\n\r\nTo display the scanned barcode simply open the operator HMI. The last scanned barcode is displayed in the bottom left corner of every screen.",
@@ -319,8 +320,8 @@
           "Interactions": []
         },
         {
-          "Id": 140,
-          "SectionId": 67,
+          "Id": 14,
+          "SectionId": 1,
           "Type": 4,
           "TextContent": "Image from 141e67ce-882d-4d02-bdc2-f4fdcd41feef_Barcode Reader OHV110 (1)",
           "PlainTextContent": null,
@@ -340,8 +341,8 @@
           "Interactions": []
         },
         {
-          "Id": 141,
-          "SectionId": 67,
+          "Id": 15,
+          "SectionId": 1,
           "Type": 1,
           "TextContent": "Figure 2: Position of the last scanned barcode\r\n\r\nExample barcodes",
           "PlainTextContent": "Figure 2: Position of the last scanned barcode\r\n\r\nExample barcodes",
@@ -361,8 +362,8 @@
           "Interactions": []
         },
         {
-          "Id": 142,
-          "SectionId": 67,
+          "Id": 16,
+          "SectionId": 1,
           "Type": 1,
           "TextContent": "\u250C\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\r\n\u2502  \u2502  \u2502\r\n\u2502  \u2502  \u2502\r\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518",
           "PlainTextContent": "\u250C\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\r\n\u2502  \u2502  \u2502\r\n\u2502  \u2502  \u2502\r\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518",
