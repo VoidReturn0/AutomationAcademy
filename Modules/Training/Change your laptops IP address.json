@@ -1,5 +1,5 @@
 {
-  "Id": 26,
+  "Id": 8,
   "ExternalId": "258aafe4-1126-447c-8ced-38d2f9c85496",
   "ModuleFolderPath": "Modules\\258aafe4-1126-447c-8ced-38d2f9c85496",
   "Name": "Change your laptops IP address",
@@ -23,14 +23,16 @@
   "TemplateId": null,
   "Status": 3,
   "Tags": null,
+  "SearchKeywords": null,
   "ComplianceRequirements": null,
   "IsReferenceMaterial": false,
   "OriginalFileType": null,
   "OriginalFilePath": null,
+  "IsFormatPreserved": false,
   "Sections": [
     {
-      "Id": 30,
-      "ModuleId": 26,
+      "Id": 7,
+      "ModuleId": 8,
       "Title": "Introduction",
       "Subtitle": null,
       "OrderIndex": 0,
@@ -46,7 +48,7 @@
       "ContentBlocks": [
         {
           "Id": 27,
-          "SectionId": 30,
+          "SectionId": 7,
           "Type": 1,
           "TextContent": "\u003CFlowDocument FontSize=\u002214\u0022 Foreground=\u0022#FFFFFFFF\u0022 Background=\u0022#FF1A1A1A\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 ColumnWidth=\u0022Auto\u0022 IsOptimalParagraphEnabled=\u0022False\u0022 PageWidth=\u0022Auto\u0022 PageHeight=\u0022Auto\u0022 PagePadding=\u00225,0,5,0\u0022 IsHyphenationEnabled=\u0022False\u0022 AllowDrop=\u0022True\u0022 NumberSubstitution.CultureSource=\u0022User\u0022 xmlns=\u0022http://schemas.microsoft.com/winfx/2006/xaml/presentation\u0022\u003E\u003CParagraph Margin=\u00220,0,0,0\u0022 Padding=\u00220,0,0,0\u0022 TextAlignment=\u0022Left\u0022 FlowDirection=\u0022LeftToRight\u0022 Foreground=\u0022#FFFFFFFF\u0022\u003ETesting\u003C/Paragraph\u003E\u003C/FlowDocument\u003E",
           "PlainTextContent": "Click here to add text content...",
