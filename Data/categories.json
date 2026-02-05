@@ -1,14 +1,163 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-05T13:37:02.2902228Z",
+  "last_updated": "2026-02-05T15:06:24.8467988Z",
   "categories": [
+    {
+      "id": "networking",
+      "name": "Networking",
+      "description": "",
+      "icon": "\uD83D\uDDA5\uFE0F",
+      "color": "#007ACC",
+      "order": 1,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "test",
+          "name": "1) Changing laptops IP address",
+          "description": "Learn the basics of IP address use",
+          "icon": "\uD83D\uDCBB",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "plc",
+      "name": "PLC",
+      "description": "",
+      "icon": "\uD83D\uDCBE",
+      "color": "#007ACC",
+      "order": 2,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "introduction",
+          "name": "Introduction",
+          "description": "A brief introduction to PLC\u0027s",
+          "icon": "\uD83D\uDCC2",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "broetje_knowledge",
+      "name": "Broetje Knowledge",
+      "description": "Broetje Automation specific knowledge and procedures",
+      "icon": "\uD83D\uDCC1",
+      "color": "#007ACC",
+      "order": 3,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "parts",
+          "name": "Parts",
+          "description": "Parts and components information",
+          "icon": "\uD83D\uDCC2",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "electrical",
+          "name": "Electrical",
+          "description": "Electrical systems and wiring",
+          "icon": "\uD83D\uDCC2",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "backups",
+          "name": "Backups",
+          "description": "Backup procedures and data management",
+          "icon": "\uD83D\uDCC2",
+          "order": 3,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "race_overview",
+          "name": "RACe Overview",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 4,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "race",
+      "name": "RACe",
+      "description": "",
+      "icon": "\u2699\uFE0F",
+      "color": "#007ACC",
+      "order": 4,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "calibrations",
+          "name": "Calibrations",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "mpac",
+      "name": "MPAC",
+      "description": "",
+      "icon": "\uD83D\uDD27",
+      "color": "#007ACC",
+      "order": 5,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "calibrations",
+          "name": "Calibrations",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    }
+  ],
+  "reference_categories": [
     {
       "id": "race",
       "name": "RACe",
       "description": "Reference material category: RACe",
       "icon": "\uD83D\uDCC1",
       "color": "#6C757D",
-      "order": 5,
+      "order": 1,
       "skill_levels": [
         "Reference"
       ],
@@ -106,113 +255,12 @@
       ]
     },
     {
-      "id": "networking",
-      "name": "Networking",
-      "description": "",
-      "icon": "\uD83D\uDDA5\uFE0F",
-      "color": "#007ACC",
-      "order": 2,
-      "skill_levels": [
-        "Beginner",
-        "Intermediate",
-        "Advanced"
-      ],
-      "subcategories": [
-        {
-          "id": "test",
-          "name": "1) Changing laptops IP address",
-          "description": "Learn the basics of IP address use",
-          "icon": "\uD83D\uDCBB",
-          "order": 1,
-          "prerequisites": [],
-          "estimated_hours": 0
-        }
-      ]
-    },
-    {
-      "id": "plc",
-      "name": "PLC",
-      "description": "",
-      "icon": "\uD83D\uDCBE",
-      "color": "#007ACC",
-      "order": 3,
-      "skill_levels": [
-        "Beginner",
-        "Intermediate",
-        "Advanced"
-      ],
-      "subcategories": [
-        {
-          "id": "introduction",
-          "name": "Introduction",
-          "description": "A brief introduction to PLC\u0027s",
-          "icon": "\uD83D\uDCC2",
-          "order": 1,
-          "prerequisites": [],
-          "estimated_hours": 0
-        }
-      ]
-    },
-    {
-      "id": "broetje_knowledge",
-      "name": "Broetje Knowledge",
-      "description": "Broetje Automation specific knowledge and procedures",
-      "icon": "\uD83D\uDCC1",
-      "color": "#007ACC",
-      "order": 4,
-      "skill_levels": [
-        "Beginner",
-        "Intermediate",
-        "Advanced"
-      ],
-      "subcategories": [
-        {
-          "id": "parts",
-          "name": "Parts",
-          "description": "Parts and components information",
-          "icon": "\uD83D\uDCC2",
-          "order": 1,
-          "prerequisites": [],
-          "estimated_hours": 0
-        },
-        {
-          "id": "electrical",
-          "name": "Electrical",
-          "description": "Electrical systems and wiring",
-          "icon": "\uD83D\uDCC2",
-          "order": 2,
-          "prerequisites": [],
-          "estimated_hours": 0
-        },
-        {
-          "id": "backups",
-          "name": "Backups",
-          "description": "Backup procedures and data management",
-          "icon": "\uD83D\uDCC2",
-          "order": 3,
-          "prerequisites": [],
-          "estimated_hours": 0
-        },
-        {
-          "id": "race_overview",
-          "name": "RACe Overview",
-          "description": "",
-          "icon": "\uD83D\uDCC2",
-          "order": 4,
-          "prerequisites": [],
-          "estimated_hours": 0
-        }
-      ]
-    }
-  ],
-  "reference_categories": [
-    {
       "id": "mpac",
       "name": "MPAC",
       "description": "",
       "icon": "\u2699\uFE0F",
       "color": "#6C757D",
-      "order": 1,
+      "order": 2,
       "skill_levels": [
         "Reference"
       ],
@@ -243,7 +291,7 @@
       "description": "",
       "icon": "\u2699\uFE0F",
       "color": "#6C757D",
-      "order": 2,
+      "order": 3,
       "skill_levels": [
         "Reference"
       ],
@@ -274,7 +322,7 @@
       "description": "",
       "icon": "\uD83D\uDD27",
       "color": "#6C757D",
-      "order": 3,
+      "order": 4,
       "skill_levels": [
         "Reference"
       ],
@@ -291,71 +339,5 @@
       ]
     }
   ],
-  "learning_paths": [
-    {
-      "id": "basic_technician",
-      "name": "Basic Technician Certification",
-      "description": "Essential skills for new automation technicians",
-      "icon": "\uD83C\uDFAF",
-      "estimated_weeks": 4,
-      "required_categories": [
-        "networking_connectivity",
-        "safety_compliance"
-      ],
-      "required_subcategories": [
-        "file_sharing",
-        "network_diagnostics",
-        "safety_procedures",
-        "lockout_tagout"
-      ],
-      "prerequisites": [],
-      "certification_level": "Basic"
-    },
-    {
-      "id": "advanced_technician",
-      "name": "Advanced Technician Certification",
-      "description": "Advanced maintenance and scripting skills",
-      "icon": "\uD83D\uDE80",
-      "estimated_weeks": 8,
-      "required_categories": [
-        "networking_connectivity",
-        "system_maintenance",
-        "safety_compliance"
-      ],
-      "required_subcategories": [
-        "ip_configuration",
-        "remote_access",
-        "backup_restore",
-        "hardware_replacement",
-        "regulatory_compliance"
-      ],
-      "prerequisites": [
-        "basic_technician"
-      ],
-      "certification_level": "Advanced"
-    },
-    {
-      "id": "automation_specialist",
-      "name": "Automation Specialist Certification",
-      "description": "Complete automation and scripting expertise",
-      "icon": "\uD83C\uDFC6",
-      "estimated_weeks": 12,
-      "required_categories": [
-        "networking_connectivity",
-        "system_maintenance",
-        "automation_scripting",
-        "safety_compliance"
-      ],
-      "required_subcategories": [
-        "system_optimization",
-        "powershell_basics",
-        "automation_scripts",
-        "monitoring_alerts"
-      ],
-      "prerequisites": [
-        "advanced_technician"
-      ],
-      "certification_level": "Expert"
-    }
-  ]
+  "learning_paths": []
 }
