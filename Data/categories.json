@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-01-22T14:14:12.3057921Z",
+  "last_updated": "2026-02-05T13:37:02.2902228Z",
   "categories": [
     {
       "id": "race",
@@ -263,6 +263,28 @@
           "description": "",
           "icon": "\uD83D\uDCC4",
           "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "siemens",
+      "name": "Siemens",
+      "description": "",
+      "icon": "\uD83D\uDD27",
+      "color": "#6C757D",
+      "order": 3,
+      "skill_levels": [
+        "Reference"
+      ],
+      "subcategories": [
+        {
+          "id": "useful_manual_links",
+          "name": "Useful Manual Links",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 1,
           "prerequisites": [],
           "estimated_hours": 0
         }
