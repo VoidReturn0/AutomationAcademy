@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-07T22:30:41.7834504Z",
+  "last_updated": "2026-02-07T23:43:20.6554405Z",
   "categories": [
     {
       "id": "networking",
@@ -341,11 +341,11 @@
   ],
   "learning_paths": [
     {
-      "id": "93f9e29e",
-      "name": "Basic Broetje Knowledge",
-      "description": "A basic on-boarding to Broetje equipment and procedures",
+      "id": "9b1ef172",
+      "name": "test",
+      "description": "test",
       "icon": "\uD83C\uDF93",
-      "estimated_weeks": 2,
+      "estimated_weeks": 4,
       "required_categories": [],
       "required_subcategories": [],
       "prerequisites": [],
@@ -353,57 +353,8 @@
       "steps": [
         {
           "order": 1,
-          "module_external_id": "6be360c3-95df-4263-9378-e955296e2f01",
-          "module_name": "PLC Overview",
-          "description": "",
-          "is_required": true
-        },
-        {
-          "order": 2,
-          "module_external_id": "5a342473-26c4-410e-a8de-8b577d9d81ac",
-          "module_name": "Advanced Electrical Maintenance Training",
-          "description": "",
-          "is_required": true
-        },
-        {
-          "order": 3,
-          "module_external_id": "726f597e-8d2c-41d5-bbea-709539c708d9",
-          "module_name": "Broetje EPLAN information",
-          "description": "",
-          "is_required": true
-        },
-        {
-          "order": 4,
-          "module_external_id": "1ba5a64b-9abc-4c3e-ab6e-12d12a0dab58",
-          "module_name": "Broetje Wiring Breakdown",
-          "description": "",
-          "is_required": true
-        },
-        {
-          "order": 5,
-          "module_external_id": "2cbe193d-8423-4264-af7a-a24375f86c61",
-          "module_name": "Drawing and Documentation",
-          "description": "",
-          "is_required": true
-        },
-        {
-          "order": 6,
-          "module_external_id": "02862ed0-9cae-40cb-8a13-a2d18f407a41",
-          "module_name": "Looking Up Parts",
-          "description": "",
-          "is_required": true
-        },
-        {
-          "order": 7,
           "module_external_id": "920f2bbb-7b5a-4fd3-9c9a-2e84f7c63fa0",
           "module_name": "S7 and Starter Backups",
-          "description": "",
-          "is_required": true
-        },
-        {
-          "order": 8,
-          "module_external_id": "e3e77e57-48f0-44da-8a5b-787458bc7bce",
-          "module_name": "NC Databackup",
           "description": "",
           "is_required": true
         }
