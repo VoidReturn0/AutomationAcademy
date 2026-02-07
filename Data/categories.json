@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-07T23:43:20.6554405Z",
+  "last_updated": "2026-02-07T23:59:33.4001291Z",
   "categories": [
     {
       "id": "networking",
@@ -355,6 +355,13 @@
           "order": 1,
           "module_external_id": "920f2bbb-7b5a-4fd3-9c9a-2e84f7c63fa0",
           "module_name": "S7 and Starter Backups",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 2,
+          "module_external_id": "6be360c3-95df-4263-9378-e955296e2f01",
+          "module_name": "PLC Overview",
           "description": "",
           "is_required": true
         }
