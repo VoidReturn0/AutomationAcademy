@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-08T15:48:20Z",
-  "last_sync": "2026-02-08T15:48:20Z",
+  "last_updated": "2026-02-08T15:53:29Z",
+  "last_sync": "2026-02-08T15:53:29Z",
   "employees": [
     {
       "employee_id": "EMP0001",
@@ -19,8 +19,8 @@
       "is_active": true,
       "certifications": [],
       "skill_level": "",
-      "created_at": "2026-02-08T15:48:20Z",
-      "updated_at": "2026-02-08T15:48:20Z"
+      "created_at": "2026-02-08T15:53:29Z",
+      "updated_at": "2026-02-08T15:53:29Z"
     },
     {
       "employee_id": "EMP0002",
@@ -38,8 +38,8 @@
       "is_active": true,
       "certifications": [],
       "skill_level": "",
-      "created_at": "2026-02-08T15:48:20Z",
-      "updated_at": "2026-02-08T15:48:20Z"
+      "created_at": "2026-02-08T15:53:29Z",
+      "updated_at": "2026-02-08T15:53:29Z"
     },
     {
       "employee_id": "EMP0003",
@@ -57,8 +57,8 @@
       "is_active": true,
       "certifications": [],
       "skill_level": "",
-      "created_at": "2026-02-08T15:48:20Z",
-      "updated_at": "2026-02-08T15:48:20Z"
+      "created_at": "2026-02-08T15:53:29Z",
+      "updated_at": "2026-02-08T15:53:29Z"
     },
     {
       "employee_id": "EMP0004",
@@ -76,8 +76,8 @@
       "is_active": true,
       "certifications": [],
       "skill_level": "",
-      "created_at": "2026-02-08T15:48:20Z",
-      "updated_at": "2026-02-08T15:48:20Z"
+      "created_at": "2026-02-08T15:53:29Z",
+      "updated_at": "2026-02-08T15:53:29Z"
     },
     {
       "employee_id": "EMP0005",
@@ -95,8 +95,8 @@
       "is_active": true,
       "certifications": [],
       "skill_level": "",
-      "created_at": "2026-02-08T15:48:20Z",
-      "updated_at": "2026-02-08T15:48:20Z"
+      "created_at": "2026-02-08T15:53:29Z",
+      "updated_at": "2026-02-08T15:53:29Z"
     },
     {
       "employee_id": "EMP0006",
@@ -114,8 +114,27 @@
       "is_active": true,
       "certifications": [],
       "skill_level": "",
-      "created_at": "2026-02-08T15:48:20Z",
-      "updated_at": "2026-02-08T15:48:20Z"
+      "created_at": "2026-02-08T15:53:29Z",
+      "updated_at": "2026-02-08T15:53:29Z"
+    },
+    {
+      "employee_id": "BA001",
+      "username": "test",
+      "first_name": "New",
+      "last_name": "User",
+      "email": "",
+      "department": "",
+      "position": "",
+      "hire_date": "2024-01-01",
+      "manager_id": null,
+      "location": "",
+      "network": "",
+      "role": "Admin",
+      "is_active": true,
+      "certifications": [],
+      "skill_level": "Beginner",
+      "created_at": "2026-02-08T15:53:29Z",
+      "updated_at": "2026-02-08T15:53:29Z"
     }
   ],
   "departments": [],
