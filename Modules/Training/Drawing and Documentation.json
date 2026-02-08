@@ -29,7 +29,26 @@
   "OriginalFileType": "pptx",
   "OriginalFilePath": "Modules\\2cbe193d-8423-4264-af7a-a24375f86c61\\original\\e0772b47-e50a-40b5-bb2f-c0a3e24eac8b_21 170522 - POWER RACe Gulfstream - Trainer_Drawing_and_Documentation_System_MT.pptx",
   "IsFormatPreserved": true,
-  "Sections": [],
+  "Sections": [
+    {
+      "Id": 59,
+      "ModuleId": 22,
+      "Title": "Main Content",
+      "Subtitle": null,
+      "OrderIndex": 1,
+      "Type": 6,
+      "IsRequired": true,
+      "EstimatedMinutes": 5,
+      "Metadata": null,
+      "CreatedAt": "2026-02-07T23:08:26.9172288",
+      "UpdatedAt": "2026-02-07T23:08:26.9172295",
+      "CreatedBy": null,
+      "LastModifiedBy": null,
+      "Module": null,
+      "ContentBlocks": [],
+      "Assessments": []
+    }
+  ],
   "Tasks": [],
   "UserProgress": [],
   "Completions": []
