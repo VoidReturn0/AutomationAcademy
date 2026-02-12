@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-12T14:44:04.8253148Z",
+  "last_updated": "2026-02-12T16:44:40.4010867Z",
   "categories": [
     {
       "id": "networking",
@@ -144,6 +144,300 @@
           "description": "",
           "icon": "\uD83D\uDCC2",
           "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "mpac9/10/stacker",
+      "name": "Mpac9/10/Stacker",
+      "description": "Training material for Mpac 9, 10 and the Stacker",
+      "icon": "\uD83D\uDD27",
+      "color": "#007ACC",
+      "order": 6,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "afs",
+          "name": "AFS",
+          "description": "Automated Fastener System",
+          "icon": "\uD83D\uDCC2",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "chip_extraction",
+          "name": "Chip Extraction",
+          "description": "Vacuum system",
+          "icon": "\uD83D\uDCC2",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "spindle_cooling",
+          "name": "Spindle Cooling",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 3,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "coordinate_system",
+          "name": "Coordinate System",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 4,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "countersink",
+          "name": "Countersink",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 5,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "distance_and_normality",
+          "name": "Distance and Normality",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 6,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "drill_lubrication",
+          "name": "Drill Lubrication",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 8,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "drill_magazine",
+          "name": "Drill Magazine",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 9,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "drill_feed_unit",
+          "name": "Drill Feed Unit",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 10,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "drill_spindle",
+          "name": "Drill Spindle",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 10,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "fast_approach_level",
+          "name": "Fast Approach Level",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 11,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "fastener_feeding",
+          "name": "Fastener Feeding",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 12,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "fastener_injector_magazine",
+          "name": "Fastener Injector Magazine",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 13,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "drill_geometry",
+          "name": "Drill Geometry",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 14,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "important_parameters",
+          "name": "Important Parameters",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 15,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "lower_ram",
+          "name": "Lower Ram",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 16,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "operating_elements",
+          "name": "Operating Elements",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 17,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "pressure_foot_bridge",
+          "name": "Pressure Foot Bridge",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 18,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "safety",
+          "name": "Safety",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 19,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "scale",
+          "name": "SCALE",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 20,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "sealant_applicator",
+          "name": "Sealant Applicator",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 21,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "stacker",
+          "name": "Stacker",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 22,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "station_layout",
+          "name": "Station Layout",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 23,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "riveting",
+          "name": "Riveting",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 24,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "transfer_drill",
+          "name": "Transfer Drill",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 25,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "units_of_forces",
+          "name": "Units of Forces",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 26,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "upper_anvil_server",
+          "name": "Upper Anvil Server",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 27,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "upper_anvil_magazine",
+          "name": "Upper Anvil Magazine",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 28,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "upper_ram",
+          "name": "Upper Ram",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 29,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "work_level_and_deep_drop",
+          "name": "Work Level and Deep Drop",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 30,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "tool_center_point",
+          "name": "Tool Center Point",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 31,
           "prerequisites": [],
           "estimated_hours": 0
         }
@@ -346,6 +640,28 @@
           "estimated_hours": 0
         }
       ]
+    },
+    {
+      "id": "broetje",
+      "name": "Broetje",
+      "description": "General Broetje Information",
+      "icon": "\uD83C\uDF10",
+      "color": "#6C757D",
+      "order": 5,
+      "skill_levels": [
+        "Reference"
+      ],
+      "subcategories": [
+        {
+          "id": "templates",
+          "name": "Templates",
+          "description": "Quick templates for creating documents",
+          "icon": "\uD83D\uDCC4",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
     }
   ],
   "learning_paths": [
@@ -434,6 +750,41 @@
           "order": 11,
           "module_external_id": "e3e77e57-48f0-44da-8a5b-787458bc7bce",
           "module_name": "NC Databackup",
+          "description": "",
+          "is_required": true
+        }
+      ],
+      "is_active": true
+    },
+    {
+      "id": "f626890c",
+      "name": "Computer Skills",
+      "description": "Basic and advanced computer skills that are expected for the current job role",
+      "icon": "\uD83D\uDCBB",
+      "estimated_weeks": 2,
+      "required_categories": [],
+      "required_subcategories": [],
+      "prerequisites": [],
+      "certification_level": "",
+      "steps": [
+        {
+          "order": 1,
+          "module_external_id": "73d09233-861e-480a-8eef-f3ce6d17eb07",
+          "module_name": "CMD Basics (Hands-On Diagnostics)",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 2,
+          "module_external_id": "4a50e4ea-2e34-4691-91d3-785023367b43",
+          "module_name": "What is an IP address and Octet?",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 3,
+          "module_external_id": "258aafe4-1126-447c-8ced-38d2f9c85496",
+          "module_name": "Change your laptops IP address",
           "description": "",
           "is_required": true
         }
