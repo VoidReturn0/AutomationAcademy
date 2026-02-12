@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-07T23:59:33.4001291Z",
+  "last_updated": "2026-02-12T14:44:04.8253148Z",
   "categories": [
     {
       "id": "networking",
@@ -251,6 +251,15 @@
           "order": 10,
           "prerequisites": [],
           "estimated_hours": 0
+        },
+        {
+          "id": "ups",
+          "name": "UPS",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 11,
+          "prerequisites": [],
+          "estimated_hours": 0
         }
       ]
     },
@@ -341,9 +350,9 @@
   ],
   "learning_paths": [
     {
-      "id": "9b1ef172",
-      "name": "test",
-      "description": "test",
+      "id": "45263321",
+      "name": "Broetje General Knowledge",
+      "description": "A general on-boarding to Broetje Machines and practices",
       "icon": "\uD83C\uDF93",
       "estimated_weeks": 4,
       "required_categories": [],
@@ -353,15 +362,78 @@
       "steps": [
         {
           "order": 1,
+          "module_external_id": "6be360c3-95df-4263-9378-e955296e2f01",
+          "module_name": "PLC Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 2,
+          "module_external_id": "5a342473-26c4-410e-a8de-8b577d9d81ac",
+          "module_name": "Advanced Electrical Maintenance Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 3,
+          "module_external_id": "726f597e-8d2c-41d5-bbea-709539c708d9",
+          "module_name": "Broetje EPLAN information",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 4,
+          "module_external_id": "1ba5a64b-9abc-4c3e-ab6e-12d12a0dab58",
+          "module_name": "Broetje Wiring Breakdown",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 5,
+          "module_external_id": "2cbe193d-8423-4264-af7a-a24375f86c61",
+          "module_name": "Drawing and Documentation",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 6,
+          "module_external_id": "02862ed0-9cae-40cb-8a13-a2d18f407a41",
+          "module_name": "Looking Up Parts",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 7,
+          "module_external_id": "6a54f5b4-adde-424e-a7a9-65cf90f7739e",
+          "module_name": "RACe Safety Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 8,
+          "module_external_id": "97fddfe3-cbd9-452b-93fa-3fc4add2a32f",
+          "module_name": "RACe Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 9,
+          "module_external_id": "331ceda5-1cd7-48f2-8090-6cb53c37473c",
+          "module_name": "RACe System Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 10,
           "module_external_id": "920f2bbb-7b5a-4fd3-9c9a-2e84f7c63fa0",
           "module_name": "S7 and Starter Backups",
           "description": "",
           "is_required": true
         },
         {
-          "order": 2,
-          "module_external_id": "6be360c3-95df-4263-9378-e955296e2f01",
-          "module_name": "PLC Overview",
+          "order": 11,
+          "module_external_id": "e3e77e57-48f0-44da-8a5b-787458bc7bce",
+          "module_name": "NC Databackup",
           "description": "",
           "is_required": true
         }
