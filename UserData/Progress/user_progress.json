@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-02-13T17:01:18.505129Z",
+  "last_sync": "2026-02-13T17:01:18.5051291Z",
+  "user_progress": [
+    {
+      "employee_id": "EMP0001",
+      "username": "mgriffis",
+      "overall_progress": {
+        "completed_modules": 1,
+        "total_modules": 128,
+        "completion_percentage": 0.8,
+        "total_hours_trained": 0,
+        "current_skill_level": "New",
+        "certifications_earned": [],
+        "learning_path_progress": 0
+      },
+      "module_completions": [
+        {
+          "module_id": "6be360c3-95df-4263-9378-e955296e2f01",
+          "module_name": "PLC Overview",
+          "started_date": "2026-02-13T16:59:41.2176462",
+          "completed_date": "2026-02-13T16:59:41.2176958",
+          "time_spent_minutes": 0,
+          "score": 100,
+          "passing_score": 70,
+          "attempts": 1,
+          "status": "Completed",
+          "assessments_completed": []
+        }
+      ],
+      "in_progress_modules": []
+    },
+    {
+      "employee_id": "EMP0002",
+      "username": "ngross",
+      "overall_progress": {
+        "completed_modules": 0,
+        "total_modules": 128,
+        "completion_percentage": 0,
+        "total_hours_trained": 0,
+        "current_skill_level": "New",
+        "certifications_earned": [],
+        "learning_path_progress": 0
+      },
+      "module_completions": [],
+      "in_progress_modules": []
+    },
+    {
+      "employee_id": "EMP0003",
+      "username": "fclements",
+      "overall_progress": {
+        "completed_modules": 0,
+        "total_modules": 128,
+        "completion_percentage": 0,
+        "total_hours_trained": 0,
+        "current_skill_level": "New",
+        "certifications_earned": [],
+        "learning_path_progress": 0
+      },
+      "module_completions": [],
+      "in_progress_modules": []
+    },
+    {
+      "employee_id": "EMP0004",
+      "username": "jfielding",
+      "overall_progress": {
+        "completed_modules": 0,
+        "total_modules": 128,
+        "completion_percentage": 0,
+        "total_hours_trained": 0,
+        "current_skill_level": "New",
+        "certifications_earned": [],
+        "learning_path_progress": 0
+      },
+      "module_completions": [],
+      "in_progress_modules": []
+    },
+    {
+      "employee_id": "EMP0005",
+      "username": "cpeeler",
+      "overall_progress": {
+        "completed_modules": 0,
+        "total_modules": 128,
+        "completion_percentage": 0,
+        "total_hours_trained": 0,
+        "current_skill_level": "New",
+        "certifications_earned": [],
+        "learning_path_progress": 0
+      },
+      "module_completions": [],
+      "in_progress_modules": []
+    },
+    {
+      "employee_id": "EMP0006",
+      "username": "jwebb",
+      "overall_progress": {
+        "completed_modules": 0,
+        "total_modules": 128,
+        "completion_percentage": 0,
+        "total_hours_trained": 0,
+        "current_skill_level": "New",
+        "certifications_earned": [],
+        "learning_path_progress": 0
+      },
+      "module_completions": [],
+      "in_progress_modules": []
+    }
+  ],
+  "analytics": {
+    "completion_rates_by_category": {
+      "plc": 1
+    },
+    "average_scores_by_module": {
+      "6be360c3-95df-4263-9378-e955296e2f01": 100
+    },
+    "training_hours_by_month": {
+      "2026-02": 0
+    },
+    "most_challenging_modules": []
+  }
+}
