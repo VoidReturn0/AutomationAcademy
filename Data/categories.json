@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-13T15:40:27.5918727Z",
+  "last_updated": "2026-02-13T16:53:30.6832773Z",
   "categories": [
     {
       "id": "networking",
@@ -905,6 +905,37 @@
           "id": "templates",
           "name": "Templates",
           "description": "Quick templates for creating documents",
+          "icon": "\uD83D\uDCC4",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "chiller_pumps",
+          "name": "Chiller Pumps",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical",
+      "description": "",
+      "icon": "\uD83D\uDD0C",
+      "color": "#6C757D",
+      "order": 6,
+      "skill_levels": [
+        "Reference"
+      ],
+      "subcategories": [
+        {
+          "id": "drive_cliq",
+          "name": "Drive Cliq",
+          "description": "",
           "icon": "\uD83D\uDCC4",
           "order": 1,
           "prerequisites": [],
