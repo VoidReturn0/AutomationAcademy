@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-12T16:44:40.4010867Z",
+  "last_updated": "2026-02-13T15:40:27.5918727Z",
   "categories": [
     {
       "id": "networking",
@@ -151,7 +151,7 @@
     },
     {
       "id": "mpac9/10/stacker",
-      "name": "Mpac9/10/Stacker",
+      "name": "Mpac9/10/Stacker General Overview",
       "description": "Training material for Mpac 9, 10 and the Stacker",
       "icon": "\uD83D\uDD27",
       "color": "#007ACC",
@@ -438,6 +438,255 @@
           "description": "",
           "icon": "\uD83D\uDCC2",
           "order": 31,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "mpac_9/10/stacker_electrical_training",
+      "name": "Mpac 9/10/Stacker Electrical Training",
+      "description": "Electrical training for the newest version of Mpac",
+      "icon": "\uD83C\uDF93",
+      "color": "#007ACC",
+      "order": 7,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "adjusting_forces",
+          "name": "Adjusting Forces",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "afs_rack",
+          "name": "AFS Rack",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "data_backup",
+          "name": "Data Backup",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 3,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "d/n_sensors",
+          "name": "D/N Sensors",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 4,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "drill_magazine",
+          "name": "Drill Magazine",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 5,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "drill_feed_unit",
+          "name": "Drill Feed Unit",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 6,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "electrical_drawings",
+          "name": "Electrical Drawings",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 7,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "fastener_feeding",
+          "name": "Fastener Feeding",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 8,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "fastener_injector_magazine",
+          "name": "Fastener Injector Magazine",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 9,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "lower_ram",
+          "name": "Lower Ram",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 10,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "drill_lubrication",
+          "name": "Drill Lubrication",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 11,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "machine_on/off",
+          "name": "Machine On/Off",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 12,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "plc_analyzer",
+          "name": "PLC Analyzer",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 13,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "pressure_foot_bridge",
+          "name": "Pressure Foot Bridge",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 14,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "refrence_nc_axis",
+          "name": "Refrence NC Axis",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 15,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "safety_installation",
+          "name": "Safety Installation",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 16,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "scale",
+          "name": "SCALE",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 17,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "sealant_applicator",
+          "name": "Sealant Applicator",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 18,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "sensor_testing",
+          "name": "Sensor Testing",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 19,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "stack_calibration",
+          "name": "Stack Calibration",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 20,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "stacker",
+          "name": "Stacker",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 21,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "system_overview",
+          "name": "System Overview",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 22,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "transfer_drill",
+          "name": "Transfer Drill",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 23,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "upper_anvil_server",
+          "name": "Upper Anvil Server",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 24,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "upper_anvil_magazine",
+          "name": "Upper Anvil Magazine",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 25,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "upper_ram",
+          "name": "Upper Ram",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 26,
           "prerequisites": [],
           "estimated_hours": 0
         }
@@ -785,6 +1034,818 @@
           "order": 3,
           "module_external_id": "258aafe4-1126-447c-8ced-38d2f9c85496",
           "module_name": "Change your laptops IP address",
+          "description": "",
+          "is_required": true
+        }
+      ],
+      "is_active": true
+    },
+    {
+      "id": "e5e9985e",
+      "name": "Mpac 9/10 General Overview",
+      "description": "General Mpac 9/10 Knowledge Base",
+      "icon": "\uD83C\uDFED",
+      "estimated_weeks": 2,
+      "required_categories": [],
+      "required_subcategories": [],
+      "prerequisites": [],
+      "certification_level": "",
+      "steps": [
+        {
+          "order": 1,
+          "module_external_id": "52ea72eb-6512-4a7f-b804-10a62963637f",
+          "module_name": "General AFS Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 2,
+          "module_external_id": "9bb11d60-81cc-47b1-97f9-bf76e0581e76",
+          "module_name": "Chip Extraction Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 3,
+          "module_external_id": "aaf2181e-753b-453e-ac6a-7e174de2ddbd",
+          "module_name": "Coordinate System Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 4,
+          "module_external_id": "dfa08439-7c5a-4096-888d-81c5f541f397",
+          "module_name": "Countersink Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 5,
+          "module_external_id": "f027b96c-4972-477d-9b4b-06f3eef57ce7",
+          "module_name": "Distance Sensor Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 6,
+          "module_external_id": "4d1b871f-02d4-4185-bb65-4dc911030b9c",
+          "module_name": "Normality Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 7,
+          "module_external_id": "350bc35f-ccdc-4ba0-b099-584a26346ffa",
+          "module_name": "Drill Feed Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 8,
+          "module_external_id": "f01dffdc-6df4-4a74-b6e1-9956728e7eaa",
+          "module_name": "Drill Geometry Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 9,
+          "module_external_id": "a5f20298-5d78-477a-ad32-ff012b7f1617",
+          "module_name": "Drill Lubrication Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 10,
+          "module_external_id": "5eb02453-8a57-431b-b869-abe9efea52d0",
+          "module_name": "Drill Magazine Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 11,
+          "module_external_id": "6f39e1bc-f542-4ca5-869e-977b18e21368",
+          "module_name": "Drill Spindle Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 12,
+          "module_external_id": "0710fd07-17b9-4644-bbde-616e50d20ca7",
+          "module_name": "Fast Approach Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 13,
+          "module_external_id": "17dbf8e6-0a8d-47bb-a893-ee97289bba07",
+          "module_name": "Fastener Feeding Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 14,
+          "module_external_id": "74922fb8-9d28-4e25-93d5-5679695959ca",
+          "module_name": "Fastener Injector Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 15,
+          "module_external_id": "9c1f78ef-a575-4e88-8c61-c5ab79a3f7f3",
+          "module_name": "Important Parameter Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 16,
+          "module_external_id": "0a78caa0-5987-4465-a171-4a63d8a47988",
+          "module_name": "LT Collision Detection Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 17,
+          "module_external_id": "327d8bea-f71c-49e1-9f04-c6462f093a59",
+          "module_name": "Lower Ram Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 18,
+          "module_external_id": "2302fc6d-6701-4fd2-bd0f-29d18a801c9f",
+          "module_name": "Lower Tool Die Offset Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 19,
+          "module_external_id": "f088affc-26aa-4743-94e9-c4ee690a44ce",
+          "module_name": "HMI overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 20,
+          "module_external_id": "5ad7a53d-12b8-4aa9-81fc-1e791b740304",
+          "module_name": "Ketop Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 21,
+          "module_external_id": "d42f2f1b-a524-422d-8e0c-53beb024ec8c",
+          "module_name": "MCP Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 22,
+          "module_external_id": "3cf5736d-023f-447b-8e5d-3b722e6a1fd0",
+          "module_name": "Maintenance Screens Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 23,
+          "module_external_id": "e31a4576-25e4-455f-95da-93b1a22c13d8",
+          "module_name": "Operating Modes Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 24,
+          "module_external_id": "4f64d94c-d7d8-4b9e-b244-25c222572de2",
+          "module_name": "Operator Desk Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 25,
+          "module_external_id": "ba2c0702-644c-4317-a047-e66a73100706",
+          "module_name": "SCORE Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 26,
+          "module_external_id": "9810459b-7baa-4a32-9e31-6403a52c1cf3",
+          "module_name": "User Levels Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 27,
+          "module_external_id": "807aaf86-3eb4-45ed-be44-8f65196fff71",
+          "module_name": "Pressure Foot Bridge Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 28,
+          "module_external_id": "5711c5f1-50eb-4eb5-8db9-520d25745fd4",
+          "module_name": "Riveting Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 29,
+          "module_external_id": "1cd1ea5e-6c34-4d58-bbd9-35b0ea1fd61e",
+          "module_name": "AFS Rack Safety Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 30,
+          "module_external_id": "fe7df1dd-0cd8-4913-b6e1-d1b675b92764",
+          "module_name": "Acknowledgement Safety Functions Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 31,
+          "module_external_id": "ecfc21f9-7750-4714-9fe5-b896d47195fc",
+          "module_name": "Estop Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 32,
+          "module_external_id": "512265c7-da22-4735-a56c-1955c7c778d7",
+          "module_name": "General Safety Areas Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 33,
+          "module_external_id": "9a4c1eeb-28b1-4922-8b4d-eea6ee081067",
+          "module_name": "General Safety Instructions Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 34,
+          "module_external_id": "6545ce71-d500-4c45-af7d-6c6688e4925d",
+          "module_name": "Local Operation Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 35,
+          "module_external_id": "ad794af8-93c4-444a-a970-ca18e935f729",
+          "module_name": "NC Test Stop Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 36,
+          "module_external_id": "a09e831b-3877-42b9-8ebc-df0ec7f6c578",
+          "module_name": "PPE Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 37,
+          "module_external_id": "a3ee2529-e1c3-48bf-af10-e3edbd908123",
+          "module_name": "Safety Devices Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 38,
+          "module_external_id": "76d85512-193c-4205-86d4-48655b6e4718",
+          "module_name": "Safety Doors Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 39,
+          "module_external_id": "d13641b9-b7ef-4c4f-b73e-ce6dbb173526",
+          "module_name": "Safety Functions Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 40,
+          "module_external_id": "b2127999-f07f-417c-bd1f-45a7cfaa6d08",
+          "module_name": "Safety Limits Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 41,
+          "module_external_id": "be2949f3-11db-40bb-8a7b-9020b1db36e1",
+          "module_name": "Safety Signs Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 42,
+          "module_external_id": "32115dbf-fd04-4bf7-a1d6-a286263d4a72",
+          "module_name": "PSEN Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 43,
+          "module_external_id": "6464c003-a8fc-4e66-a9ef-37ee8272fb15",
+          "module_name": "SCALE Measuring System Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 44,
+          "module_external_id": "d5359607-ed5f-44c7-b748-deac3c2c5c09",
+          "module_name": "SCALE Operating Elements Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 45,
+          "module_external_id": "fef042d2-47c0-48fd-b7cc-06b95c2a6193",
+          "module_name": "SCALE User Interface Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 46,
+          "module_external_id": "f748525e-f4b6-4bfd-8d89-4f05b7348824",
+          "module_name": "Sealant Applicator Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 47,
+          "module_external_id": "126e9b06-a8cd-4f59-b7f6-972641f166d8",
+          "module_name": "Drill Spindle Cooling Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 48,
+          "module_external_id": "1eb9c322-4960-4cf9-9378-e220dabc1245",
+          "module_name": "General Station Layout Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 49,
+          "module_external_id": "e51f3517-fc02-4fc3-8812-5c0c73de0620",
+          "module_name": "Lower Tool Layout Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 50,
+          "module_external_id": "d9c1a702-be16-4825-9d78-9ff74735014e",
+          "module_name": "Positioner Layout Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 51,
+          "module_external_id": "ac15beee-3bcf-482d-8734-a95b8b4320dc",
+          "module_name": "Upper Tooling Layout Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 52,
+          "module_external_id": "1cb70bef-e4e7-47da-ad92-b9682efaa4d5",
+          "module_name": "TCP Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 53,
+          "module_external_id": "9fcb2ef5-cc76-459a-a7c3-805c3f6c6d37",
+          "module_name": "Transfer Drill Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 54,
+          "module_external_id": "a64d4d9e-6d3f-4730-bb0a-3cfa744114d0",
+          "module_name": "Units Force Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 55,
+          "module_external_id": "82c03559-ef01-4644-bf63-551aba7c00eb",
+          "module_name": "Upper Anvil Magazine Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 56,
+          "module_external_id": "d0fefb4c-8445-4e34-a6f6-384991148491",
+          "module_name": "Upper Anvil Changes Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 57,
+          "module_external_id": "06d1e8b8-1b15-48cf-bc6a-a3d19746474e",
+          "module_name": "Upper Ram Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 58,
+          "module_external_id": "9ac8fbd3-1814-4d94-9e15-fe22528a7dd3",
+          "module_name": "Work Level and Deep Drop Overview",
+          "description": "",
+          "is_required": true
+        }
+      ],
+      "is_active": true
+    },
+    {
+      "id": "2bf9f173",
+      "name": "Stacker",
+      "description": "General Stacker Knowledge Base",
+      "icon": "\uD83C\uDF93",
+      "estimated_weeks": 1,
+      "required_categories": [],
+      "required_subcategories": [],
+      "prerequisites": [],
+      "certification_level": "",
+      "steps": [
+        {
+          "order": 1,
+          "module_external_id": "84639528-f285-4d51-a2c2-d39aa2651021",
+          "module_name": "Stacker Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 2,
+          "module_external_id": "bcd18ebf-10cd-4ed2-8e59-409319d4c85a",
+          "module_name": "Stacker Safety Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 3,
+          "module_external_id": "d4740979-8ef0-44a3-b43c-f12281ff3c1a",
+          "module_name": "Stacker Alarms/Messages Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 4,
+          "module_external_id": "89773a7c-3217-4480-87eb-62a7a2ffd8d8",
+          "module_name": "Stacker Wear Indicators Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 5,
+          "module_external_id": "4f9997e1-1f57-482b-b0e1-188018e77faf",
+          "module_name": "Statcker Status Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 6,
+          "module_external_id": "aa9b186b-fef9-4813-9471-92993dc6d2fd",
+          "module_name": "Stacker Axis Frame Refrence Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 7,
+          "module_external_id": "fcb42c35-deb4-40aa-95ec-b26f3c32bcc6",
+          "module_name": "Stacker Fixation Pin Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 8,
+          "module_external_id": "d6737be8-009a-4281-88f7-a2f75faec69f",
+          "module_name": "Stacker Flaps Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 9,
+          "module_external_id": "3ff3c86b-e9e9-45ac-9de3-a54748e6fff8",
+          "module_name": "Stacker Frame Movement Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 10,
+          "module_external_id": "545c7327-72f3-4a72-82fa-10c37529b4da",
+          "module_name": "Stacker Position Definition Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 11,
+          "module_external_id": "30363b91-41fc-4e14-9c7f-dc8541ef17f8",
+          "module_name": "Stacker Railling Training",
+          "description": "",
+          "is_required": true
+        }
+      ],
+      "is_active": true
+    },
+    {
+      "id": "8460e77b",
+      "name": "Mpac 9/10 Electrcial Training",
+      "description": "",
+      "icon": "\uD83D\uDD0C",
+      "estimated_weeks": 2,
+      "required_categories": [],
+      "required_subcategories": [],
+      "prerequisites": [],
+      "certification_level": "",
+      "steps": [
+        {
+          "order": 1,
+          "module_external_id": "7de32b86-2ca6-4f68-a072-8707f0278846",
+          "module_name": "Electrcial System Overview Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 2,
+          "module_external_id": "e3debd4b-b9dc-4cbb-b5ca-cbc42b590584",
+          "module_name": "Electrcial Safety Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 3,
+          "module_external_id": "e786e1bb-50fa-43bd-b40d-779372d23f66",
+          "module_name": "Eplan Electrical Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 4,
+          "module_external_id": "16cc1bb3-f081-4a3b-9afd-673a0aa1411d",
+          "module_name": "Machine On Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 5,
+          "module_external_id": "dc1027b1-e681-4b55-b241-b138295c2808",
+          "module_name": "Machine Off Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 6,
+          "module_external_id": "d295ffd0-000d-443e-bd52-4b5f37ec1e63",
+          "module_name": "PLC Analyzer Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 7,
+          "module_external_id": "4dc71481-7a62-41d2-abc1-e2713ec12f29",
+          "module_name": "Adjusting Forces Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 8,
+          "module_external_id": "8dee2d13-b775-4be8-baa1-b5c345a96e7c",
+          "module_name": "Clamp Force Adjustment",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 9,
+          "module_external_id": "dc74d830-5058-4f44-997c-c42a13b3fb5a",
+          "module_name": "Transfer Drill Electrcial Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 10,
+          "module_external_id": "420c5ac2-aa99-457a-8266-41fe366f82fe",
+          "module_name": "Upset Force Adjustment",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 11,
+          "module_external_id": "08e09ad0-032a-4c7c-b854-76851a5d525b",
+          "module_name": "AFS Electrical Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 12,
+          "module_external_id": "904231fd-1d9b-49e4-9541-6c80852c8710",
+          "module_name": "D/N Sensor Calibration",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 13,
+          "module_external_id": "fb430bb6-46c3-4245-8a94-1d9c04f0c766",
+          "module_name": "Drill Feed Electrical Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 14,
+          "module_external_id": "291af162-5ae1-4980-ac13-3ca56d37820c",
+          "module_name": "Riveter Lubrication Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 15,
+          "module_external_id": "6142bbf1-a91f-43c3-aeb8-87eb416da6f2",
+          "module_name": "Drill Magazine Electrical Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 16,
+          "module_external_id": "79f9df9d-c5cc-4b93-b0b9-9ad4fffa14f9",
+          "module_name": "Fastener Feeding Electrical Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 17,
+          "module_external_id": "119bf707-a055-4e1e-a5e2-dc02837c6cb4",
+          "module_name": "Fastener Injector Magazine Electrical Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 18,
+          "module_external_id": "970f1b14-da1b-43eb-b12a-e484436b01ce",
+          "module_name": "Button Poti Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 19,
+          "module_external_id": "776b0c40-3faf-45c0-a700-cef08c21a5de",
+          "module_name": "Clamp Switch/Squeeze Limit Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 20,
+          "module_external_id": "37f7d0f3-99b1-4e3a-8ca8-0533a66c7478",
+          "module_name": "Clamp Unit Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 21,
+          "module_external_id": "3c0d69d2-7449-4f55-802b-bc00a8cd306a",
+          "module_name": "Lower Anvil Data Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 22,
+          "module_external_id": "a62c54a1-5f13-4d57-8b6e-4c75ca637b27",
+          "module_name": "Lower Anvil Locking Pin Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 23,
+          "module_external_id": "d521e803-63a3-4d4f-8a59-d6fe846b869b",
+          "module_name": "Lower Ram Collision Detection Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 24,
+          "module_external_id": "5a444dce-65f1-4670-bca5-1257e50cf19c",
+          "module_name": "Lower Ram Electrical Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 25,
+          "module_external_id": "9d5e9ee3-b422-44b8-90e7-74dd540487a5",
+          "module_name": "Lower Tool Lubrication Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 26,
+          "module_external_id": "3d24675f-fd7a-4c12-9b60-544f400bfd8b",
+          "module_name": "Pressure Foot Bridge Electrical Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 27,
+          "module_external_id": "b5ea1c9c-fa4f-4354-a70d-f89a0aba0096",
+          "module_name": "PSEN Calibration Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 28,
+          "module_external_id": "991ed4df-4134-425d-b8ca-44152110218c",
+          "module_name": "SCALE Backup Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 29,
+          "module_external_id": "edbb09f9-effc-4e70-96d6-68cf651f082a",
+          "module_name": "Sealant Applicator Electrical Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 30,
+          "module_external_id": "0a1b1ea3-036a-476a-a708-5eed87b0b6fb",
+          "module_name": "Sensor Testing Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 31,
+          "module_external_id": "b350391a-5696-4f36-8600-18868fa5fb70",
+          "module_name": "Stack Calibration Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 32,
+          "module_external_id": "d3decdbd-1741-4a12-b6b1-d37d51327644",
+          "module_name": "Upper Anvil Magazine Electrcial Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 33,
+          "module_external_id": "99b15acf-22cc-46a3-8173-ddb81fb7d776",
+          "module_name": "Upper Anvil Server Electrcial Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 34,
+          "module_external_id": "bbbda451-a04d-41db-9452-3a5f005ccb34",
+          "module_name": "Upper Ram Electrcial Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 35,
+          "module_external_id": "19f5b4e1-920a-4673-8976-dc3c455ea223",
+          "module_name": "Acronis Data Backup",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 36,
+          "module_external_id": "81fc1815-e2fb-4f0b-b699-1338cd20525c",
+          "module_name": "DB3 Data Backup",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 37,
+          "module_external_id": "0bdf2fa5-afa7-4a66-9cf9-80605028591c",
+          "module_name": "Firebird Data Backup",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 38,
+          "module_external_id": "e344ba09-90fb-4f95-a401-4354b35aa00d",
+          "module_name": "NC Data Backup",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 39,
+          "module_external_id": "bf4bea58-8c60-4784-b4a2-df1ef357300a",
+          "module_name": "PLC Data Backup",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 40,
+          "module_external_id": "db87bfa1-5c68-48b6-bae2-4f3914edbe8b",
+          "module_name": "S120 Drive Data Backup",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 41,
+          "module_external_id": "e9fc4bd6-7673-4905-9f8a-bc4589823898",
+          "module_name": "NC Axis Refrence Training",
           "description": "",
           "is_required": true
         }
