@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-13T16:53:30.6832773Z",
+  "last_updated": "2026-02-13T17:07:59.3109623Z",
   "categories": [
     {
       "id": "networking",
@@ -803,6 +803,15 @@
           "order": 11,
           "prerequisites": [],
           "estimated_hours": 0
+        },
+        {
+          "id": "adl",
+          "name": "ADL",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 12,
+          "prerequisites": [],
+          "estimated_hours": 0
         }
       ]
     },
@@ -916,6 +925,15 @@
           "description": "",
           "icon": "\uD83D\uDCC4",
           "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "scale",
+          "name": "SCALE",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 3,
           "prerequisites": [],
           "estimated_hours": 0
         }
