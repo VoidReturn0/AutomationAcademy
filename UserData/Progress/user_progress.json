@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-13T17:01:18.505129Z",
-  "last_sync": "2026-02-13T17:01:18.5051291Z",
+  "last_updated": "2026-02-17T20:59:26.0635131Z",
+  "last_sync": "2026-02-17T20:59:26.0635138Z",
   "user_progress": [
     {
       "employee_id": "EMP0001",
       "username": "mgriffis",
       "overall_progress": {
-        "completed_modules": 1,
-        "total_modules": 128,
-        "completion_percentage": 0.8,
+        "completed_modules": 2,
+        "total_modules": 144,
+        "completion_percentage": 1.4,
         "total_hours_trained": 0,
         "current_skill_level": "New",
         "certifications_earned": [],
@@ -27,16 +27,39 @@
           "attempts": 1,
           "status": "Completed",
           "assessments_completed": []
+        },
+        {
+          "module_id": "5a342473-26c4-410e-a8de-8b577d9d81ac",
+          "module_name": "Advanced Electrical Maintenance Training",
+          "started_date": "2026-02-13T17:01:51.1256854",
+          "completed_date": "2026-02-13T17:01:51.125686",
+          "time_spent_minutes": 0,
+          "score": 100,
+          "passing_score": 70,
+          "attempts": 1,
+          "status": "Completed",
+          "assessments_completed": []
         }
       ],
-      "in_progress_modules": []
+      "in_progress_modules": [
+        {
+          "module_id": "970f1b14-da1b-43eb-b12a-e484436b01ce",
+          "module_name": "Button Poti Training",
+          "started_date": "2026-02-13T17:19:29.5258017Z",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-13T17:19:29.5258512Z",
+          "bookmarks": []
+        }
+      ]
     },
     {
       "employee_id": "EMP0002",
       "username": "ngross",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 128,
+        "total_modules": 144,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -51,7 +74,7 @@
       "username": "fclements",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 128,
+        "total_modules": 144,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -66,7 +89,7 @@
       "username": "jfielding",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 128,
+        "total_modules": 144,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -81,7 +104,7 @@
       "username": "cpeeler",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 128,
+        "total_modules": 144,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -96,7 +119,7 @@
       "username": "jwebb",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 128,
+        "total_modules": 144,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -109,10 +132,12 @@
   ],
   "analytics": {
     "completion_rates_by_category": {
-      "plc": 1
+      "plc": 1,
+      "broetje_knowledge": 1
     },
     "average_scores_by_module": {
-      "6be360c3-95df-4263-9378-e955296e2f01": 100
+      "6be360c3-95df-4263-9378-e955296e2f01": 100,
+      "5a342473-26c4-410e-a8de-8b577d9d81ac": 100
     },
     "training_hours_by_month": {
       "2026-02": 0
