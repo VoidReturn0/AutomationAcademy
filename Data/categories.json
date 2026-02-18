@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-13T17:07:59.3109623Z",
+  "last_updated": "2026-02-18T20:37:13.6955633Z",
   "categories": [
     {
       "id": "networking",
@@ -691,6 +691,57 @@
           "estimated_hours": 0
         }
       ]
+    },
+    {
+      "id": "mpac_9/10/stacker_operations_training",
+      "name": "Mpac 9/10/Stacker Operations Training",
+      "description": "Machine operations training for Mpac 9, 10 and the Stacker",
+      "icon": "\uD83D\uDCDA",
+      "color": "#007ACC",
+      "order": 8,
+      "skill_levels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "subcategories": [
+        {
+          "id": "machine_process",
+          "name": "Machine Process",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "production_preperations",
+          "name": "Production Preperations",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "stacker",
+          "name": "Stacker",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 3,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "work_room_cameras",
+          "name": "Work Room Cameras",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 4,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
     }
   ],
   "reference_categories": [
@@ -968,7 +1019,7 @@
       "name": "Broetje General Knowledge",
       "description": "A general on-boarding to Broetje Machines and practices",
       "icon": "\uD83C\uDF93",
-      "estimated_weeks": 4,
+      "estimated_weeks": 2,
       "required_categories": [],
       "required_subcategories": [],
       "prerequisites": [],
@@ -1094,7 +1145,7 @@
       "name": "Mpac 9/10 General Overview",
       "description": "General Mpac 9/10 Knowledge Base",
       "icon": "\uD83C\uDFED",
-      "estimated_weeks": 2,
+      "estimated_weeks": 3,
       "required_categories": [],
       "required_subcategories": [],
       "prerequisites": [],
@@ -1605,7 +1656,7 @@
       "name": "Mpac 9/10 Electrcial Training",
       "description": "",
       "icon": "\uD83D\uDD0C",
-      "estimated_weeks": 2,
+      "estimated_weeks": 3,
       "required_categories": [],
       "required_subcategories": [],
       "prerequisites": [],
@@ -1895,6 +1946,307 @@
           "order": 41,
           "module_external_id": "e9fc4bd6-7673-4905-9f8a-bc4589823898",
           "module_name": "NC Axis Refrence Training",
+          "description": "",
+          "is_required": true
+        }
+      ],
+      "is_active": true
+    },
+    {
+      "id": "fff944f4",
+      "name": "Mpac 9/10/Stacker Machine Process Training",
+      "description": "",
+      "icon": "\uD83D\uDCDA",
+      "estimated_weeks": 2,
+      "required_categories": [],
+      "required_subcategories": [],
+      "prerequisites": [],
+      "certification_level": "",
+      "steps": [
+        {
+          "order": 1,
+          "module_external_id": "4ed07544-df01-4177-ba07-bba8ec19bbfc",
+          "module_name": "AFS Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 2,
+          "module_external_id": "02fa3be3-655d-406f-83aa-a78a5b6165bc",
+          "module_name": "Changing Lower Tool Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 3,
+          "module_external_id": "abfdf775-c298-4316-affe-a645b707831d",
+          "module_name": "Clamping Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 4,
+          "module_external_id": "cb7c7d32-8054-4abb-b42a-954a086993ca",
+          "module_name": "Cycle Modes Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 5,
+          "module_external_id": "d2a5c804-5175-4565-bde3-9ba93adca6eb",
+          "module_name": "D/N Sensor Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 6,
+          "module_external_id": "d174fac4-0026-4312-9875-92b11610ac46",
+          "module_name": "Drilling Process",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 7,
+          "module_external_id": "9117e354-9d2c-44d7-945d-574957c6e4ed",
+          "module_name": "Drilling Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 8,
+          "module_external_id": "247f265f-0627-40b8-8086-9d7566860b05",
+          "module_name": "FCP Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 9,
+          "module_external_id": "d34db0c1-5a21-4926-a38d-19e9478d46f2",
+          "module_name": "Fastener Insertion Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 10,
+          "module_external_id": "3da72243-d7ff-4d5e-bfc2-48f68506acaf",
+          "module_name": "Fastener Squeeze Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 11,
+          "module_external_id": "0fb78e66-551a-48b6-8800-156fb06dcae9",
+          "module_name": "MPAC Machine Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 12,
+          "module_external_id": "5eda3f7d-f558-4c54-9eb0-e8e42028cba1",
+          "module_name": "Machine Control Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 13,
+          "module_external_id": "710d3835-4692-47de-bf3d-29672a4af80d",
+          "module_name": "NC Positioning Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 14,
+          "module_external_id": "ea95a4f1-b372-41fb-a7b8-2981918a64e0",
+          "module_name": "PSEN Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 15,
+          "module_external_id": "882d6286-f803-464d-809a-f4b1d86bb7d6",
+          "module_name": "Pressure Foot Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 16,
+          "module_external_id": "72273828-2813-40cd-bf05-2a153981b68f",
+          "module_name": "Sealant Applicator Process Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 17,
+          "module_external_id": "0ee54b9c-fe02-4886-bfc2-c41915057652",
+          "module_name": "Stacker Operations Training",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 18,
+          "module_external_id": "9ca20d24-a4e6-41d1-86b0-d705bc1c621b",
+          "module_name": "Tooling Airblow Function",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 19,
+          "module_external_id": "9526adf8-4400-463d-9955-4aaec8ddf339",
+          "module_name": "Jogging the Stacker Frames",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 20,
+          "module_external_id": "19b00868-d086-45d9-98e3-6bdcfe2e47a0",
+          "module_name": "Loading/Unloading Parts into the Stacker",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 21,
+          "module_external_id": "dac50af1-d10b-4764-9b50-cfb1b6ebf55c",
+          "module_name": "Parts Status for the Stacker",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 22,
+          "module_external_id": "66b77aa2-c74e-46f1-a3ce-a0588f76e0cf",
+          "module_name": "Workroom Cameras",
+          "description": "",
+          "is_required": true
+        }
+      ],
+      "is_active": true
+    },
+    {
+      "id": "41edfaee",
+      "name": "Mpac 9/10/Stacker Production Preperation Training",
+      "description": "",
+      "icon": "\uD83D\uDCCB",
+      "estimated_weeks": 1,
+      "required_categories": [],
+      "required_subcategories": [],
+      "prerequisites": [],
+      "certification_level": "",
+      "steps": [
+        {
+          "order": 1,
+          "module_external_id": "bb3eedf0-f3b6-4c16-87b7-63852cd11ddb",
+          "module_name": "Cleaning the Machine",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 2,
+          "module_external_id": "9cd02976-d02d-4afa-b457-b0180aeadec7",
+          "module_name": "Drill Spindle Warmup Operation",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 3,
+          "module_external_id": "a95b9b6d-8f85-4ed0-ab2d-abdc5fddb0b9",
+          "module_name": "Machine Start Information Guide",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 4,
+          "module_external_id": "361b7f88-54fa-4806-86e7-09275e768b5f",
+          "module_name": "Operating and Using the Coupon Holder",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 5,
+          "module_external_id": "70a0bf4f-346e-45ec-bd1c-3c0b6b19dde9",
+          "module_name": "Operating the Drill Magazine",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 6,
+          "module_external_id": "043a2620-794e-43d8-9367-7a2608c81e5f",
+          "module_name": "Operating the Upper Anvil",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 7,
+          "module_external_id": "7f2c9697-b4c8-4bda-a59b-234244f1254d",
+          "module_name": "Operating the Upper Anvil Magazine",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 8,
+          "module_external_id": "373716bb-f01f-4802-81b6-1553dbdbd0f5",
+          "module_name": "Operating/Configuring FIM for Production",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 9,
+          "module_external_id": "343eb735-9535-40fd-8b2c-d50378cbd54c",
+          "module_name": "Preparing Central Lubrication System",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 10,
+          "module_external_id": "3684cd64-4c6f-493d-83c0-30585a3d90b4",
+          "module_name": "Preparing Chillers for Production",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 11,
+          "module_external_id": "5cb8868f-ab98-44e2-a445-6218f976cc42",
+          "module_name": "Preparing Drill Lubrication for Production",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 12,
+          "module_external_id": "5bde54c2-d6e6-4910-b5b4-e5227c82644b",
+          "module_name": "Preparing the Chip Extraction for Production",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 13,
+          "module_external_id": "145470ab-ebef-4567-94a9-8d9e35939ca3",
+          "module_name": "Preparing the Sealant Applicator for Production",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 14,
+          "module_external_id": "26a6f353-aa09-4627-bc37-95403a6ab5cd",
+          "module_name": "Production Tool Information",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 15,
+          "module_external_id": "f7000d95-bfcb-489a-9eff-85d862386f8d",
+          "module_name": "Proper Shutdown of the Machine",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 16,
+          "module_external_id": "d2184766-ce59-4b11-a3c6-264ae7d060b2",
+          "module_name": "Using the AFS Overview",
+          "description": "",
+          "is_required": true
+        },
+        {
+          "order": 17,
+          "module_external_id": "b2c7ba06-57f4-49c1-8578-76cbbb1fadb1",
+          "module_name": "Using the Local Operations Key",
           "description": "",
           "is_required": true
         }
