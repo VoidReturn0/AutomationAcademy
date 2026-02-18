@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-18T20:37:13.6955633Z",
+  "last_updated": "2026-02-18T22:57:35.4077151Z",
   "categories": [
     {
       "id": "networking",
@@ -1654,7 +1654,7 @@
     {
       "id": "8460e77b",
       "name": "Mpac 9/10 Electrcial Training",
-      "description": "",
+      "description": "Mpac 9/10 Electrical Training Path",
       "icon": "\uD83D\uDD0C",
       "estimated_weeks": 3,
       "required_categories": [],
@@ -1955,7 +1955,7 @@
     {
       "id": "fff944f4",
       "name": "Mpac 9/10/Stacker Machine Process Training",
-      "description": "",
+      "description": "Understanding Mpac 9/10/Stacker Gerneral Process",
       "icon": "\uD83D\uDCDA",
       "estimated_weeks": 2,
       "required_categories": [],
@@ -2123,7 +2123,7 @@
     {
       "id": "41edfaee",
       "name": "Mpac 9/10/Stacker Production Preperation Training",
-      "description": "",
+      "description": "Preparing Mpac 9/10/Stacker for Production",
       "icon": "\uD83D\uDCCB",
       "estimated_weeks": 1,
       "required_categories": [],
