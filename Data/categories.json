@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-19T13:36:04.9969762Z",
+  "last_updated": "2026-02-19T19:03:40.7592826Z",
   "categories": [
     {
       "id": "networking",
-      "name": "Networking",
-      "description": "",
+      "name": "Computer Skills",
+      "description": "Basic computer skills required to be successful in your current job role",
       "icon": "\uD83D\uDDA5\uFE0F",
       "color": "#007ACC",
       "order": 1,
@@ -21,6 +21,24 @@
           "description": "Learn the basics of IP address use",
           "icon": "\uD83D\uDCBB",
           "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "vnc",
+          "name": "VNC",
+          "description": "Using VNC to view remote PC\u0027s",
+          "icon": "\uD83C\uDF08",
+          "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "networking_pc_folders",
+          "name": "Networking PC Folders",
+          "description": "",
+          "icon": "\uD83D\uDCC2",
+          "order": 3,
           "prerequisites": [],
           "estimated_hours": 0
         }
@@ -863,6 +881,51 @@
           "order": 12,
           "prerequisites": [],
           "estimated_hours": 0
+        },
+        {
+          "id": "hydraulic",
+          "name": "Hydraulic",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 13,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "barcode_reader",
+          "name": "Barcode Reader",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 14,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "dcm",
+          "name": "DCM",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 15,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "ba_lube",
+          "name": "BA Lube",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 16,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "sentron",
+          "name": "Sentron",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 17,
+          "prerequisites": [],
+          "estimated_hours": 0
         }
       ]
     },
@@ -892,6 +955,24 @@
           "description": "",
           "icon": "\uD83D\uDCC4",
           "order": 2,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "refrence_manuals",
+          "name": "Refrence Manuals",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 3,
+          "prerequisites": [],
+          "estimated_hours": 0
+        },
+        {
+          "id": "eplan",
+          "name": "Eplan",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 4,
           "prerequisites": [],
           "estimated_hours": 0
         }
@@ -1004,6 +1085,28 @@
         {
           "id": "drive_cliq",
           "name": "Drive Cliq",
+          "description": "",
+          "icon": "\uD83D\uDCC4",
+          "order": 1,
+          "prerequisites": [],
+          "estimated_hours": 0
+        }
+      ]
+    },
+    {
+      "id": "loaders",
+      "name": "Loaders",
+      "description": "",
+      "icon": "\uD83C\uDFED",
+      "color": "#6C757D",
+      "order": 7,
+      "skill_levels": [
+        "Reference"
+      ],
+      "subcategories": [
+        {
+          "id": "documentation",
+          "name": "Documentation",
           "description": "",
           "icon": "\uD83D\uDCC4",
           "order": 1,
