@@ -5,7 +5,7 @@
   "Name": "Barcode Reader OHV110 (1)",
   "Description": "Document for reprogramming the Barcode Scanners on a RACe",
   "Category": "race",
-  "Subcategory": "Barcode Scanner",
+  "Subcategory": "barcode_reader",
   "Difficulty": 0,
   "EstimatedMinutes": 10,
   "IconPath": null,
@@ -13,7 +13,7 @@
   "Version": "1.0.0",
   "IsActive": true,
   "CreatedAt": "2026-01-20T15:08:59.5841907",
-  "UpdatedAt": "2026-01-20T20:14:14.6602104",
+  "UpdatedAt": "2026-02-19T17:41:54.1365219",
   "Author": "michaelg",
   "Prerequisites": "",
   "LearningObjectives": "",
@@ -41,7 +41,7 @@
       "EstimatedMinutes": 0,
       "Metadata": null,
       "CreatedAt": "2026-01-20T20:09:00.7583207",
-      "UpdatedAt": "2026-01-20T20:14:14.7228796",
+      "UpdatedAt": "2026-02-19T17:41:54.1665834",
       "CreatedBy": null,
       "LastModifiedBy": null,
       "Module": null,
@@ -62,7 +62,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586638",
-          "UpdatedAt": "2026-01-20T20:14:14.7234305",
+          "UpdatedAt": "2026-02-19T17:41:54.1666904",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -83,7 +83,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586741",
-          "UpdatedAt": "2026-01-20T20:14:14.7397679",
+          "UpdatedAt": "2026-02-19T17:41:54.1751938",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -104,7 +104,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586744",
-          "UpdatedAt": "2026-01-20T20:14:14.7556298",
+          "UpdatedAt": "2026-02-19T17:41:54.1824609",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -125,7 +125,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586746",
-          "UpdatedAt": "2026-01-20T20:14:14.7733472",
+          "UpdatedAt": "2026-02-19T17:41:54.1917074",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -146,7 +146,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586747",
-          "UpdatedAt": "2026-01-20T20:14:14.7871872",
+          "UpdatedAt": "2026-02-19T17:41:54.1989649",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -167,7 +167,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586752",
-          "UpdatedAt": "2026-01-20T20:14:14.8009674",
+          "UpdatedAt": "2026-02-19T17:41:54.2073716",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -188,7 +188,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586754",
-          "UpdatedAt": "2026-01-20T20:14:14.8190692",
+          "UpdatedAt": "2026-02-19T17:41:54.2147882",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -209,7 +209,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.758676",
-          "UpdatedAt": "2026-01-20T20:14:14.8339528",
+          "UpdatedAt": "2026-02-19T17:41:54.2222378",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -230,7 +230,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586762",
-          "UpdatedAt": "2026-01-20T20:14:14.848233",
+          "UpdatedAt": "2026-02-19T17:41:54.2293096",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -251,7 +251,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586765",
-          "UpdatedAt": "2026-01-20T20:14:14.8647161",
+          "UpdatedAt": "2026-02-19T17:41:54.2368018",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -272,7 +272,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586767",
-          "UpdatedAt": "2026-01-20T20:14:14.8807214",
+          "UpdatedAt": "2026-02-19T17:41:54.2437105",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -293,7 +293,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586769",
-          "UpdatedAt": "2026-01-20T20:14:14.896914",
+          "UpdatedAt": "2026-02-19T17:41:54.2514993",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -314,7 +314,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586771",
-          "UpdatedAt": "2026-01-20T20:14:14.9125897",
+          "UpdatedAt": "2026-02-19T17:41:54.2591955",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -335,7 +335,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586773",
-          "UpdatedAt": "2026-01-20T20:14:14.9304941",
+          "UpdatedAt": "2026-02-19T17:41:54.2663143",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -356,7 +356,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586775",
-          "UpdatedAt": "2026-01-20T20:14:14.9467759",
+          "UpdatedAt": "2026-02-19T17:41:54.2731069",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
@@ -377,7 +377,7 @@
           "RequiresInteraction": false,
           "StyleClasses": null,
           "CreatedAt": "2026-01-20T20:09:00.7586794",
-          "UpdatedAt": "2026-01-20T20:14:14.9615453",
+          "UpdatedAt": "2026-02-19T17:41:54.2817338",
           "CreatedBy": null,
           "Section": null,
           "Interactions": []
