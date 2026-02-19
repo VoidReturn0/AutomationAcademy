@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-18T22:57:35.4077151Z",
+  "last_updated": "2026-02-19T13:36:04.9969762Z",
   "categories": [
     {
       "id": "networking",
@@ -17,7 +17,7 @@
       "subcategories": [
         {
           "id": "test",
-          "name": "1) Changing laptops IP address",
+          "name": "IP Address\u0027s",
           "description": "Learn the basics of IP address use",
           "icon": "\uD83D\uDCBB",
           "order": 1,
@@ -1103,7 +1103,8 @@
           "is_required": true
         }
       ],
-      "is_active": true
+      "is_active": true,
+      "display_order": 0
     },
     {
       "id": "f626890c",
@@ -1138,7 +1139,8 @@
           "is_required": true
         }
       ],
-      "is_active": true
+      "is_active": true,
+      "display_order": 1
     },
     {
       "id": "e5e9985e",
@@ -1558,7 +1560,8 @@
           "is_required": true
         }
       ],
-      "is_active": true
+      "is_active": true,
+      "display_order": 2
     },
     {
       "id": "2bf9f173",
@@ -1649,7 +1652,8 @@
           "is_required": true
         }
       ],
-      "is_active": true
+      "is_active": true,
+      "display_order": 5
     },
     {
       "id": "8460e77b",
@@ -1950,7 +1954,8 @@
           "is_required": true
         }
       ],
-      "is_active": true
+      "is_active": true,
+      "display_order": 6
     },
     {
       "id": "fff944f4",
@@ -2118,7 +2123,8 @@
           "is_required": true
         }
       ],
-      "is_active": true
+      "is_active": true,
+      "display_order": 3
     },
     {
       "id": "41edfaee",
@@ -2251,7 +2257,8 @@
           "is_required": true
         }
       ],
-      "is_active": true
+      "is_active": true,
+      "display_order": 4
     }
   ]
 }
