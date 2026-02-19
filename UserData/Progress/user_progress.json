@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-19T18:22:27.733803Z",
-  "last_sync": "2026-02-19T18:22:27.733803Z",
+  "last_updated": "2026-02-19T18:27:20.3090224Z",
+  "last_sync": "2026-02-19T18:27:20.3090227Z",
   "user_progress": [
     {
       "employee_id": "EMP0001",
       "username": "mgriffis",
       "overall_progress": {
         "completed_modules": 2,
-        "total_modules": 168,
-        "completion_percentage": 1.2,
+        "total_modules": 174,
+        "completion_percentage": 1.1,
         "total_hours_trained": 0,
         "current_skill_level": "New",
         "certifications_earned": [],
@@ -119,7 +119,7 @@
       "username": "ngross",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 168,
+        "total_modules": 174,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -134,7 +134,7 @@
       "username": "fclements",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 168,
+        "total_modules": 174,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -149,7 +149,7 @@
       "username": "jfielding",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 168,
+        "total_modules": 174,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -164,7 +164,7 @@
       "username": "cpeeler",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 168,
+        "total_modules": 174,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -179,7 +179,7 @@
       "username": "jwebb",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 168,
+        "total_modules": 174,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
