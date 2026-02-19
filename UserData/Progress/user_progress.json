@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-19T13:57:10.8926264Z",
-  "last_sync": "2026-02-19T13:57:10.8926266Z",
+  "last_updated": "2026-02-19T18:22:27.733803Z",
+  "last_sync": "2026-02-19T18:22:27.733803Z",
   "user_progress": [
     {
       "employee_id": "EMP0001",
       "username": "mgriffis",
       "overall_progress": {
         "completed_modules": 2,
-        "total_modules": 165,
+        "total_modules": 168,
         "completion_percentage": 1.2,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -61,6 +61,56 @@
           "time_spent_minutes": 0,
           "last_accessed": "2026-02-18T23:48:33.0297024",
           "bookmarks": []
+        },
+        {
+          "module_id": "73d09233-861e-480a-8eef-f3ce6d17eb07",
+          "module_name": "CMD Basics (Hands-On Diagnostics)",
+          "started_date": "2026-02-19T16:26:18.6867961",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-19T17:06:46.290902",
+          "bookmarks": []
+        },
+        {
+          "module_id": "4a50e4ea-2e34-4691-91d3-785023367b43",
+          "module_name": "What is an IP address and Octet?",
+          "started_date": "2026-02-19T16:26:22.0229724",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-19T17:06:50.1012612",
+          "bookmarks": []
+        },
+        {
+          "module_id": "a665bd72-edd8-4a96-9f1b-89db3899d3e9",
+          "module_name": "Installing UltraVNC",
+          "started_date": "2026-02-19T16:26:26.0750728",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-19T17:06:57.1439372",
+          "bookmarks": []
+        },
+        {
+          "module_id": "c545c59e-b32b-4e5f-93ba-53cd360dfd05",
+          "module_name": "What is VNC?",
+          "started_date": "2026-02-19T17:07:01.3964761",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-19T17:07:32.0995473",
+          "bookmarks": []
+        },
+        {
+          "module_id": "ace7ec42-a6f9-4b60-8cfd-1c0ca4a8e6d9",
+          "module_name": "Using and Connecting to a Remote PC with VNC",
+          "started_date": "2026-02-19T17:07:04.2390226",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-19T17:08:24.3181005",
+          "bookmarks": []
         }
       ]
     },
@@ -69,7 +119,7 @@
       "username": "ngross",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 165,
+        "total_modules": 168,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -84,7 +134,7 @@
       "username": "fclements",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 165,
+        "total_modules": 168,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -99,7 +149,7 @@
       "username": "jfielding",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 165,
+        "total_modules": 168,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -114,7 +164,7 @@
       "username": "cpeeler",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 165,
+        "total_modules": 168,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -129,7 +179,7 @@
       "username": "jwebb",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 165,
+        "total_modules": 168,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
