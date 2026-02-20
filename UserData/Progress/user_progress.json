@@ -1,135 +1,29 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-19T23:34:25.9623125Z",
-  "last_sync": "2026-02-19T23:34:25.9623126Z",
+  "last_updated": "2026-02-20T13:52:38.594217Z",
+  "last_sync": "2026-02-20T13:52:38.5942173Z",
   "user_progress": [
     {
-      "employee_id": "EMP0001",
-      "username": "mgriffis",
+      "employee_id": "USR0001",
+      "username": "admin",
       "overall_progress": {
-        "completed_modules": 2,
-        "total_modules": 175,
-        "completion_percentage": 1.1,
+        "completed_modules": 0,
+        "total_modules": 226,
+        "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
         "certifications_earned": [],
         "learning_path_progress": 0
       },
-      "module_completions": [
-        {
-          "module_id": "6be360c3-95df-4263-9378-e955296e2f01",
-          "module_name": "PLC Overview",
-          "started_date": "2026-02-13T16:59:41.2176462",
-          "completed_date": "2026-02-13T16:59:41.2176958",
-          "time_spent_minutes": 0,
-          "score": 100,
-          "passing_score": 70,
-          "attempts": 1,
-          "status": "Completed",
-          "assessments_completed": []
-        },
-        {
-          "module_id": "5a342473-26c4-410e-a8de-8b577d9d81ac",
-          "module_name": "Advanced Electrical Maintenance Training",
-          "started_date": "2026-02-13T17:01:51.1256854",
-          "completed_date": "2026-02-13T17:01:51.125686",
-          "time_spent_minutes": 0,
-          "score": 100,
-          "passing_score": 70,
-          "attempts": 1,
-          "status": "Completed",
-          "assessments_completed": []
-        }
-      ],
-      "in_progress_modules": [
-        {
-          "module_id": "970f1b14-da1b-43eb-b12a-e484436b01ce",
-          "module_name": "Button Poti Training",
-          "started_date": "2026-02-13T17:19:29.5258017",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-13T17:19:29.5258512",
-          "bookmarks": []
-        },
-        {
-          "module_id": "02862ed0-9cae-40cb-8a13-a2d18f407a41",
-          "module_name": "Looking Up Parts",
-          "started_date": "2026-02-18T23:48:33.0296083",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-18T23:48:33.0297024",
-          "bookmarks": []
-        },
-        {
-          "module_id": "73d09233-861e-480a-8eef-f3ce6d17eb07",
-          "module_name": "CMD Basics (Hands-On Diagnostics)",
-          "started_date": "2026-02-19T16:26:18.6867961",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-19T17:06:46.290902",
-          "bookmarks": []
-        },
-        {
-          "module_id": "4a50e4ea-2e34-4691-91d3-785023367b43",
-          "module_name": "What is an IP address and Octet?",
-          "started_date": "2026-02-19T16:26:22.0229724",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-19T17:06:50.1012612",
-          "bookmarks": []
-        },
-        {
-          "module_id": "a665bd72-edd8-4a96-9f1b-89db3899d3e9",
-          "module_name": "Installing UltraVNC",
-          "started_date": "2026-02-19T16:26:26.0750728",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-19T17:06:57.1439372",
-          "bookmarks": []
-        },
-        {
-          "module_id": "c545c59e-b32b-4e5f-93ba-53cd360dfd05",
-          "module_name": "What is VNC?",
-          "started_date": "2026-02-19T17:07:01.3964761",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-19T17:07:32.0995473",
-          "bookmarks": []
-        },
-        {
-          "module_id": "ace7ec42-a6f9-4b60-8cfd-1c0ca4a8e6d9",
-          "module_name": "Using and Connecting to a Remote PC with VNC",
-          "started_date": "2026-02-19T17:07:04.2390226",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-19T17:08:24.3181005",
-          "bookmarks": []
-        },
-        {
-          "module_id": "9bed18d9-5ce4-43c5-a765-9ad112f4e578",
-          "module_name": "RACe Alignment Procedure",
-          "started_date": "2026-02-19T18:33:50.0522274",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-19T18:33:50.0522927",
-          "bookmarks": []
-        }
-      ]
+      "module_completions": [],
+      "in_progress_modules": []
     },
     {
-      "employee_id": "EMP0002",
+      "employee_id": "USR0002",
       "username": "ngross",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 175,
+        "total_modules": 226,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -140,11 +34,11 @@
       "in_progress_modules": []
     },
     {
-      "employee_id": "EMP0003",
+      "employee_id": "USR0003",
       "username": "fclements",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 175,
+        "total_modules": 226,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -155,11 +49,11 @@
       "in_progress_modules": []
     },
     {
-      "employee_id": "EMP0004",
+      "employee_id": "USR0004",
       "username": "jfielding",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 175,
+        "total_modules": 226,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -170,11 +64,11 @@
       "in_progress_modules": []
     },
     {
-      "employee_id": "EMP0005",
+      "employee_id": "USR0005",
       "username": "cpeeler",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 175,
+        "total_modules": 226,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -185,11 +79,11 @@
       "in_progress_modules": []
     },
     {
-      "employee_id": "EMP0006",
+      "employee_id": "USR0006",
       "username": "jwebb",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 175,
+        "total_modules": 226,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -201,17 +95,9 @@
     }
   ],
   "analytics": {
-    "completion_rates_by_category": {
-      "plc": 1,
-      "broetje_knowledge": 1
-    },
-    "average_scores_by_module": {
-      "6be360c3-95df-4263-9378-e955296e2f01": 100,
-      "5a342473-26c4-410e-a8de-8b577d9d81ac": 100
-    },
-    "training_hours_by_month": {
-      "2026-02": 0
-    },
+    "completion_rates_by_category": {},
+    "average_scores_by_module": {},
+    "training_hours_by_month": {},
     "most_challenging_modules": []
   }
 }
