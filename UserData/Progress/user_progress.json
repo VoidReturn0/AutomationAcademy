@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-22T16:40:09.6154684Z",
-  "last_sync": "2026-02-22T16:40:09.6154684Z",
+  "last_updated": "2026-02-22T16:41:06.5165243Z",
+  "last_sync": "2026-02-22T16:41:06.5165244Z",
   "user_progress": [
     {
       "employee_id": "USR0001",
@@ -50,6 +50,16 @@
           "total_sections": 1,
           "time_spent_minutes": 0,
           "last_accessed": "2026-02-21T17:06:00.9171403",
+          "bookmarks": []
+        },
+        {
+          "module_id": "4a1ba94e-9463-4278-af69-34005e9a0838",
+          "module_name": "Installing UltraVNC",
+          "started_date": "2026-02-22T16:41:02.5441643Z",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-22T16:41:02.544189Z",
           "bookmarks": []
         }
       ]
