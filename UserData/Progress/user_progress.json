@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-25T12:45:51.9691343Z",
-  "last_sync": "2026-02-25T12:45:51.9691349Z",
+  "last_updated": "2026-02-25T12:49:24.2550823Z",
+  "last_sync": "2026-02-25T12:49:24.2550823Z",
   "user_progress": [
     {
       "employee_id": "USR0001",
@@ -33,23 +33,13 @@
       "module_completions": [],
       "in_progress_modules": [
         {
-          "module_id": "d9684779-4a7a-4719-bea1-895371e0dc76",
+          "module_id": "742ed7dc-0704-43c9-9b7a-b3640947a00b",
           "module_name": "NC Databackup",
-          "started_date": "2026-02-25T12:32:03.0475443",
+          "started_date": "2026-02-25T12:49:22.0572229Z",
           "current_section": 0,
           "total_sections": 1,
           "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T12:32:03.0475661",
-          "bookmarks": []
-        },
-        {
-          "module_id": "6c77720d-81c0-49eb-9d3b-950c577c0b3a",
-          "module_name": "CMD Basics (Hands-On Diagnostics)",
-          "started_date": "2026-02-25T12:44:26.8860419Z",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T12:44:26.8860622Z",
+          "last_accessed": "2026-02-25T12:49:22.0572502Z",
           "bookmarks": []
         }
       ]
