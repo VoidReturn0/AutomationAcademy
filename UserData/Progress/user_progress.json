@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-25T12:49:24.2550823Z",
-  "last_sync": "2026-02-25T12:49:24.2550823Z",
+  "last_updated": "2026-02-25T13:23:44.8407898Z",
+  "last_sync": "2026-02-25T13:23:44.84079Z",
   "user_progress": [
     {
       "employee_id": "USR0001",
       "username": "admin",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 222,
+        "total_modules": 205,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -23,7 +23,7 @@
       "username": "mgriffis",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 222,
+        "total_modules": 205,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -31,25 +31,14 @@
         "learning_path_progress": 0
       },
       "module_completions": [],
-      "in_progress_modules": [
-        {
-          "module_id": "742ed7dc-0704-43c9-9b7a-b3640947a00b",
-          "module_name": "NC Databackup",
-          "started_date": "2026-02-25T12:49:22.0572229Z",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T12:49:22.0572502Z",
-          "bookmarks": []
-        }
-      ]
+      "in_progress_modules": []
     },
     {
       "employee_id": "USR0003",
       "username": "ngross",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 222,
+        "total_modules": 205,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -64,7 +53,7 @@
       "username": "fclements",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 222,
+        "total_modules": 205,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -79,7 +68,7 @@
       "username": "jfielding",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 222,
+        "total_modules": 205,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -94,7 +83,7 @@
       "username": "cpeeler",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 222,
+        "total_modules": 205,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -109,7 +98,7 @@
       "username": "jwebb",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 222,
+        "total_modules": 205,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -123,9 +112,7 @@
   "analytics": {
     "completion_rates_by_category": {},
     "average_scores_by_module": {},
-    "training_hours_by_month": {
-      "2026-02": 0
-    },
+    "training_hours_by_month": {},
     "most_challenging_modules": []
   }
 }
