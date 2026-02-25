@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-25T15:05:14.8657673Z",
-  "last_sync": "2026-02-25T15:05:14.8657675Z",
+  "last_updated": "2026-02-25T15:15:24.2914625Z",
+  "last_sync": "2026-02-25T15:15:24.2914625Z",
   "user_progress": [
     {
       "employee_id": "USR0001",
@@ -39,7 +39,7 @@
           "current_section": 0,
           "total_sections": 1,
           "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T15:04:38.919868Z",
+          "last_accessed": "2026-02-25T15:04:38.919868",
           "bookmarks": []
         },
         {
@@ -59,7 +59,7 @@
           "current_section": 0,
           "total_sections": 1,
           "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T13:26:08.9958795",
+          "last_accessed": "2026-02-25T15:14:57.3167052Z",
           "bookmarks": []
         },
         {
@@ -69,7 +69,7 @@
           "current_section": 0,
           "total_sections": 1,
           "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T15:04:00.44552Z",
+          "last_accessed": "2026-02-25T15:14:48.954783Z",
           "bookmarks": []
         },
         {
