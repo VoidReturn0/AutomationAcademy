@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-25T13:23:44.8407898Z",
-  "last_sync": "2026-02-25T13:23:44.84079Z",
+  "last_updated": "2026-02-25T13:32:56.4706719Z",
+  "last_sync": "2026-02-25T13:32:56.4706723Z",
   "user_progress": [
     {
       "employee_id": "USR0001",
@@ -31,7 +31,38 @@
         "learning_path_progress": 0
       },
       "module_completions": [],
-      "in_progress_modules": []
+      "in_progress_modules": [
+        {
+          "module_id": "eb176725-e5b2-4dc1-a7cd-1aac7ff1f921",
+          "module_name": "What is an IP address and an Octet?",
+          "started_date": "2026-02-25T13:25:28.8552731Z",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-25T13:25:28.8552853Z",
+          "bookmarks": []
+        },
+        {
+          "module_id": "4a50e4ea-2e34-4691-91d3-785023367b43",
+          "module_name": "What is an IP address and Octet?",
+          "started_date": "2026-02-25T13:25:33.1367885Z",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-25T13:25:33.1367887Z",
+          "bookmarks": []
+        },
+        {
+          "module_id": "a665bd72-edd8-4a96-9f1b-89db3899d3e9",
+          "module_name": "Installing UltraVNC",
+          "started_date": "2026-02-25T13:25:44.2200663Z",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-02-25T13:26:08.9958795Z",
+          "bookmarks": []
+        }
+      ]
     },
     {
       "employee_id": "USR0003",
@@ -112,7 +143,9 @@
   "analytics": {
     "completion_rates_by_category": {},
     "average_scores_by_module": {},
-    "training_hours_by_month": {},
+    "training_hours_by_month": {
+      "2026-02": 0
+    },
     "most_challenging_modules": []
   }
 }
