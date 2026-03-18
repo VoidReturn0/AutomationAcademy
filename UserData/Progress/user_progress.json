@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-02-25T16:36:27.951906Z",
-  "last_sync": "2026-02-25T16:36:27.9519063Z",
+  "last_updated": "2026-03-18T16:20:03.1283931Z",
+  "last_sync": "2026-03-18T16:20:03.1283932Z",
   "user_progress": [
     {
       "employee_id": "USR0001",
       "username": "admin",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 204,
+        "total_modules": 339,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -23,7 +23,7 @@
       "username": "mgriffis",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 204,
+        "total_modules": 339,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -31,65 +31,14 @@
         "learning_path_progress": 0
       },
       "module_completions": [],
-      "in_progress_modules": [
-        {
-          "module_id": "eb176725-e5b2-4dc1-a7cd-1aac7ff1f921",
-          "module_name": "What is an IP address and an Octet?",
-          "started_date": "2026-02-25T13:25:28.8552731",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T15:04:38.919868",
-          "bookmarks": []
-        },
-        {
-          "module_id": "4a50e4ea-2e34-4691-91d3-785023367b43",
-          "module_name": "What is an IP address and Octet?",
-          "started_date": "2026-02-25T13:25:33.1367885",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T13:25:33.1367887",
-          "bookmarks": []
-        },
-        {
-          "module_id": "a665bd72-edd8-4a96-9f1b-89db3899d3e9",
-          "module_name": "Installing UltraVNC",
-          "started_date": "2026-02-25T13:25:44.2200663",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T15:14:57.3167052",
-          "bookmarks": []
-        },
-        {
-          "module_id": "73d09233-861e-480a-8eef-f3ce6d17eb07",
-          "module_name": "CMD Basics (Hands-On Diagnostics)",
-          "started_date": "2026-02-25T13:34:40.4407579",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T16:36:23.311462Z",
-          "bookmarks": []
-        },
-        {
-          "module_id": "ace7ec42-a6f9-4b60-8cfd-1c0ca4a8e6d9",
-          "module_name": "Using and Connecting to a Remote PC with VNC",
-          "started_date": "2026-02-25T14:46:58.6863027",
-          "current_section": 0,
-          "total_sections": 1,
-          "time_spent_minutes": 0,
-          "last_accessed": "2026-02-25T14:46:58.6863175",
-          "bookmarks": []
-        }
-      ]
+      "in_progress_modules": []
     },
     {
       "employee_id": "USR0003",
       "username": "ngross",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 204,
+        "total_modules": 339,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -104,7 +53,7 @@
       "username": "fclements",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 204,
+        "total_modules": 339,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -119,7 +68,7 @@
       "username": "jfielding",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 204,
+        "total_modules": 339,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -134,7 +83,7 @@
       "username": "cpeeler",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 204,
+        "total_modules": 339,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -149,7 +98,7 @@
       "username": "jwebb",
       "overall_progress": {
         "completed_modules": 0,
-        "total_modules": 204,
+        "total_modules": 339,
         "completion_percentage": 0,
         "total_hours_trained": 0,
         "current_skill_level": "New",
@@ -163,9 +112,7 @@
   "analytics": {
     "completion_rates_by_category": {},
     "average_scores_by_module": {},
-    "training_hours_by_month": {
-      "2026-02": 0
-    },
+    "training_hours_by_month": {},
     "most_challenging_modules": []
   }
 }
