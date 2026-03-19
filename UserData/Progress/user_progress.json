@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-03-19T14:06:35.9051564Z",
-  "last_sync": "2026-03-19T14:06:35.9051568Z",
+  "last_updated": "2026-03-19T16:01:13.6355175Z",
+  "last_sync": "2026-03-19T16:01:13.6355176Z",
   "user_progress": [
     {
       "employee_id": "USR0001",
@@ -31,7 +31,38 @@
         "learning_path_progress": 0
       },
       "module_completions": [],
-      "in_progress_modules": []
+      "in_progress_modules": [
+        {
+          "module_id": "e3e77e57-48f0-44da-8a5b-787458bc7bce",
+          "module_name": "NC Databackup",
+          "started_date": "2026-03-19T15:54:03.9665832Z",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-03-19T15:54:03.9665958Z",
+          "bookmarks": []
+        },
+        {
+          "module_id": "73d09233-861e-480a-8eef-f3ce6d17eb07",
+          "module_name": "CMD Basics (Hands-On Diagnostics)",
+          "started_date": "2026-03-19T15:54:14.2088535Z",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-03-19T15:54:14.2088537Z",
+          "bookmarks": []
+        },
+        {
+          "module_id": "eb176725-e5b2-4dc1-a7cd-1aac7ff1f921",
+          "module_name": "What is an IP address and an Octet?",
+          "started_date": "2026-03-19T15:54:25.504398Z",
+          "current_section": 0,
+          "total_sections": 1,
+          "time_spent_minutes": 0,
+          "last_accessed": "2026-03-19T15:54:25.5043982Z",
+          "bookmarks": []
+        }
+      ]
     },
     {
       "employee_id": "USR0003",
@@ -112,7 +143,9 @@
   "analytics": {
     "completion_rates_by_category": {},
     "average_scores_by_module": {},
-    "training_hours_by_month": {},
+    "training_hours_by_month": {
+      "2026-03": 0
+    },
     "most_challenging_modules": []
   }
 }
